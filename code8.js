@@ -28,7 +28,7 @@ gdjs.Eq_46_32AzulClaraCode.GDgeral_9595equipasObjects1= [];
 gdjs.Eq_46_32AzulClaraCode.GDgeral_9595equipasObjects2= [];
 
 
-gdjs.Eq_46_32AzulClaraCode.asyncCallback20751612 = function (runtimeScene, asyncObjectsList) {
+gdjs.Eq_46_32AzulClaraCode.asyncCallback8257268 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Eq_46_32AzulClaraCode.localVariables);
 {gdjs.evtTools.firebaseTools.database.updateField(runtimeScene.getGame().getVariables().getFromIndex(6).getAsString(), "Next", "", runtimeScene.getScene().getVariables().getFromIndex(7));
 }gdjs.Eq_46_32AzulClaraCode.localVariables.length = 0;
@@ -42,7 +42,7 @@ gdjs.Eq_46_32AzulClaraCode.eventsList0 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.Eq_46_32AzulClaraCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.Eq_46_32AzulClaraCode.asyncCallback20751612(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.2), (runtimeScene) => (gdjs.Eq_46_32AzulClaraCode.asyncCallback8257268(runtimeScene, asyncObjectsList)));
 }
 }
 

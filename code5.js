@@ -42,7 +42,7 @@ gdjs.Eq_46_32VerdeClaraCode.eventsList0 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.Eq_46_32VerdeClaraCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.Eq_46_32VerdeClaraCode.asyncCallback20435108(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.2), (runtimeScene) => (gdjs.Eq_46_32VerdeClaraCode.asyncCallback20435108(runtimeScene, asyncObjectsList)));
 }
 }
 
