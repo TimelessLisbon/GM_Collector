@@ -1,0 +1,12 @@
+{
+  "name": "Game Master Colecionador",
+  "short_name": "Game Master Colecionador",
+  "id": "com.example.gamename",
+  "description": "",
+  "orientation": "portrait",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "black",
+  "categories": ["games", "entertainment"],
+  "icons": []
+}
