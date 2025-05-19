@@ -76,24 +76,23 @@ let isConditionTrue_0 = false;
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getScene().getVariables().getFromIndex(1).getAsString() == "0");
+{let isConditionTrue_1 = false;
+isConditionTrue_1 = false;
+{isConditionTrue_1 = (runtimeScene.getScene().getVariables().getFromIndex(1).getAsString() != "0");
 }
-if (isConditionTrue_0) {
-{runtimeScene.getGame().getVariables().getFromIndex(0).setString("x");
-}}
-
+if (isConditionTrue_1) {
+isConditionTrue_1 = false;
+{isConditionTrue_1 = (runtimeScene.getScene().getVariables().getFromIndex(1).getAsString() != "");
 }
-
-
-{
-
-
-let isConditionTrue_0 = false;
-isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getScene().getVariables().getFromIndex(1).getAsString() != "0");
+}
+isConditionTrue_0 = isConditionTrue_1;
 }
 if (isConditionTrue_0) {
 {runtimeScene.getGame().getVariables().getFromIndex(0).setString(runtimeScene.getScene().getVariables().getFromIndex(1).getAsString());
+}{gdjs.evtTools.firebaseTools.database.getField(runtimeScene.getGame().getVariables().getFromIndex(0).getAsString(), "Track", runtimeScene.getScene().getVariables().getFromIndex(9), runtimeScene.getScene().getVariables().getFromIndex(0));
+}{gdjs.evtTools.firebaseTools.database.getField(runtimeScene.getGame().getVariables().getFromIndex(0).getAsString(), "Score", runtimeScene.getScene().getVariables().getFromIndex(17), runtimeScene.getScene().getVariables().getFromIndex(0));
+}{gdjs.evtTools.firebaseTools.database.getField(runtimeScene.getGame().getVariables().getFromIndex(0).getAsString(), "Clues", runtimeScene.getScene().getVariables().getFromIndex(33), runtimeScene.getScene().getVariables().getFromIndex(0));
+}{gdjs.evtTools.firebaseTools.database.getField(runtimeScene.getGame().getVariables().getFromIndex(0).getAsString(), "Answer", runtimeScene.getScene().getVariables().getFromIndex(25), runtimeScene.getScene().getVariables().getFromIndex(0));
 }}
 
 }
@@ -104,24 +103,23 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getScene().getVariables().getFromIndex(2).getAsString() == "0");
+{let isConditionTrue_1 = false;
+isConditionTrue_1 = false;
+{isConditionTrue_1 = (runtimeScene.getScene().getVariables().getFromIndex(2).getAsString() != "0");
 }
-if (isConditionTrue_0) {
-{runtimeScene.getGame().getVariables().getFromIndex(1).setString("x");
-}}
-
+if (isConditionTrue_1) {
+isConditionTrue_1 = false;
+{isConditionTrue_1 = (runtimeScene.getScene().getVariables().getFromIndex(2).getAsString() != "");
 }
-
-
-{
-
-
-let isConditionTrue_0 = false;
-isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getScene().getVariables().getFromIndex(2).getAsString() != "0");
+}
+isConditionTrue_0 = isConditionTrue_1;
 }
 if (isConditionTrue_0) {
 {runtimeScene.getGame().getVariables().getFromIndex(1).setString(runtimeScene.getScene().getVariables().getFromIndex(2).getAsString());
+}{gdjs.evtTools.firebaseTools.database.getField(runtimeScene.getGame().getVariables().getFromIndex(1).getAsString(), "Track", runtimeScene.getScene().getVariables().getFromIndex(10), runtimeScene.getScene().getVariables().getFromIndex(0));
+}{gdjs.evtTools.firebaseTools.database.getField(runtimeScene.getGame().getVariables().getFromIndex(1).getAsString(), "Score", runtimeScene.getScene().getVariables().getFromIndex(18), runtimeScene.getScene().getVariables().getFromIndex(0));
+}{gdjs.evtTools.firebaseTools.database.getField(runtimeScene.getGame().getVariables().getFromIndex(1).getAsString(), "Answer", runtimeScene.getScene().getVariables().getFromIndex(26), runtimeScene.getScene().getVariables().getFromIndex(0));
+}{gdjs.evtTools.firebaseTools.database.getField(runtimeScene.getGame().getVariables().getFromIndex(1).getAsString(), "Clues", runtimeScene.getScene().getVariables().getFromIndex(34), runtimeScene.getScene().getVariables().getFromIndex(0));
 }}
 
 }
@@ -132,24 +130,23 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getScene().getVariables().getFromIndex(3).getAsString() == "0");
+{let isConditionTrue_1 = false;
+isConditionTrue_1 = false;
+{isConditionTrue_1 = (runtimeScene.getScene().getVariables().getFromIndex(3).getAsString() != "0");
 }
-if (isConditionTrue_0) {
-{runtimeScene.getGame().getVariables().getFromIndex(2).setString("x");
-}}
-
+if (isConditionTrue_1) {
+isConditionTrue_1 = false;
+{isConditionTrue_1 = (runtimeScene.getScene().getVariables().getFromIndex(3).getAsString() != "");
 }
-
-
-{
-
-
-let isConditionTrue_0 = false;
-isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getScene().getVariables().getFromIndex(3).getAsString() != "0");
+}
+isConditionTrue_0 = isConditionTrue_1;
 }
 if (isConditionTrue_0) {
 {runtimeScene.getGame().getVariables().getFromIndex(2).setString(runtimeScene.getScene().getVariables().getFromIndex(3).getAsString());
+}{gdjs.evtTools.firebaseTools.database.getField(runtimeScene.getGame().getVariables().getFromIndex(2).getAsString(), "Track", runtimeScene.getScene().getVariables().getFromIndex(11), runtimeScene.getScene().getVariables().getFromIndex(0));
+}{gdjs.evtTools.firebaseTools.database.getField(runtimeScene.getGame().getVariables().getFromIndex(2).getAsString(), "Score", runtimeScene.getScene().getVariables().getFromIndex(19), runtimeScene.getScene().getVariables().getFromIndex(0));
+}{gdjs.evtTools.firebaseTools.database.getField(runtimeScene.getGame().getVariables().getFromIndex(2).getAsString(), "Answer", runtimeScene.getScene().getVariables().getFromIndex(27), runtimeScene.getScene().getVariables().getFromIndex(0));
+}{gdjs.evtTools.firebaseTools.database.getField(runtimeScene.getGame().getVariables().getFromIndex(2).getAsString(), "Clues", runtimeScene.getScene().getVariables().getFromIndex(35), runtimeScene.getScene().getVariables().getFromIndex(0));
 }}
 
 }
@@ -160,24 +157,23 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getScene().getVariables().getFromIndex(4).getAsString() == "0");
+{let isConditionTrue_1 = false;
+isConditionTrue_1 = false;
+{isConditionTrue_1 = (runtimeScene.getScene().getVariables().getFromIndex(4).getAsString() != "0");
 }
-if (isConditionTrue_0) {
-{runtimeScene.getGame().getVariables().getFromIndex(3).setString("x");
-}}
-
+if (isConditionTrue_1) {
+isConditionTrue_1 = false;
+{isConditionTrue_1 = (runtimeScene.getScene().getVariables().getFromIndex(4).getAsString() != "");
 }
-
-
-{
-
-
-let isConditionTrue_0 = false;
-isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getScene().getVariables().getFromIndex(4).getAsString() != "0");
+}
+isConditionTrue_0 = isConditionTrue_1;
 }
 if (isConditionTrue_0) {
 {runtimeScene.getGame().getVariables().getFromIndex(3).setString(runtimeScene.getScene().getVariables().getFromIndex(4).getAsString());
+}{gdjs.evtTools.firebaseTools.database.getField(runtimeScene.getGame().getVariables().getFromIndex(3).getAsString(), "Track", runtimeScene.getScene().getVariables().getFromIndex(12), runtimeScene.getScene().getVariables().getFromIndex(0));
+}{gdjs.evtTools.firebaseTools.database.getField(runtimeScene.getGame().getVariables().getFromIndex(3).getAsString(), "Score", runtimeScene.getScene().getVariables().getFromIndex(20), runtimeScene.getScene().getVariables().getFromIndex(0));
+}{gdjs.evtTools.firebaseTools.database.getField(runtimeScene.getGame().getVariables().getFromIndex(3).getAsString(), "Answer", runtimeScene.getScene().getVariables().getFromIndex(28), runtimeScene.getScene().getVariables().getFromIndex(0));
+}{gdjs.evtTools.firebaseTools.database.getField(runtimeScene.getGame().getVariables().getFromIndex(3).getAsString(), "Clues", runtimeScene.getScene().getVariables().getFromIndex(36), runtimeScene.getScene().getVariables().getFromIndex(0));
 }}
 
 }
@@ -188,24 +184,23 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getScene().getVariables().getFromIndex(5).getAsString() == "0");
+{let isConditionTrue_1 = false;
+isConditionTrue_1 = false;
+{isConditionTrue_1 = (runtimeScene.getScene().getVariables().getFromIndex(5).getAsString() != "0");
 }
-if (isConditionTrue_0) {
-{runtimeScene.getGame().getVariables().getFromIndex(4).setString("x");
-}}
-
+if (isConditionTrue_1) {
+isConditionTrue_1 = false;
+{isConditionTrue_1 = (runtimeScene.getScene().getVariables().getFromIndex(5).getAsString() != "");
 }
-
-
-{
-
-
-let isConditionTrue_0 = false;
-isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getScene().getVariables().getFromIndex(5).getAsString() != "0");
+}
+isConditionTrue_0 = isConditionTrue_1;
 }
 if (isConditionTrue_0) {
 {runtimeScene.getGame().getVariables().getFromIndex(4).setString(runtimeScene.getScene().getVariables().getFromIndex(5).getAsString());
+}{gdjs.evtTools.firebaseTools.database.getField(runtimeScene.getGame().getVariables().getFromIndex(4).getAsString(), "Track", runtimeScene.getScene().getVariables().getFromIndex(13), runtimeScene.getScene().getVariables().getFromIndex(0));
+}{gdjs.evtTools.firebaseTools.database.getField(runtimeScene.getGame().getVariables().getFromIndex(4).getAsString(), "Score", runtimeScene.getScene().getVariables().getFromIndex(21), runtimeScene.getScene().getVariables().getFromIndex(0));
+}{gdjs.evtTools.firebaseTools.database.getField(runtimeScene.getGame().getVariables().getFromIndex(4).getAsString(), "Answer", runtimeScene.getScene().getVariables().getFromIndex(29), runtimeScene.getScene().getVariables().getFromIndex(0));
+}{gdjs.evtTools.firebaseTools.database.getField(runtimeScene.getGame().getVariables().getFromIndex(4).getAsString(), "Clues", runtimeScene.getScene().getVariables().getFromIndex(37), runtimeScene.getScene().getVariables().getFromIndex(0));
 }}
 
 }
@@ -216,24 +211,23 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getScene().getVariables().getFromIndex(6).getAsString() == "0");
+{let isConditionTrue_1 = false;
+isConditionTrue_1 = false;
+{isConditionTrue_1 = (runtimeScene.getScene().getVariables().getFromIndex(6).getAsString() != "0");
 }
-if (isConditionTrue_0) {
-{runtimeScene.getGame().getVariables().getFromIndex(5).setString("x");
-}}
-
+if (isConditionTrue_1) {
+isConditionTrue_1 = false;
+{isConditionTrue_1 = (runtimeScene.getScene().getVariables().getFromIndex(6).getAsString() != "");
 }
-
-
-{
-
-
-let isConditionTrue_0 = false;
-isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getScene().getVariables().getFromIndex(6).getAsString() != "0");
+}
+isConditionTrue_0 = isConditionTrue_1;
 }
 if (isConditionTrue_0) {
 {runtimeScene.getGame().getVariables().getFromIndex(5).setString(runtimeScene.getScene().getVariables().getFromIndex(6).getAsString());
+}{gdjs.evtTools.firebaseTools.database.getField(runtimeScene.getGame().getVariables().getFromIndex(5).getAsString(), "Track", runtimeScene.getScene().getVariables().getFromIndex(14), runtimeScene.getScene().getVariables().getFromIndex(0));
+}{gdjs.evtTools.firebaseTools.database.getField(runtimeScene.getGame().getVariables().getFromIndex(5).getAsString(), "Score", runtimeScene.getScene().getVariables().getFromIndex(22), runtimeScene.getScene().getVariables().getFromIndex(0));
+}{gdjs.evtTools.firebaseTools.database.getField(runtimeScene.getGame().getVariables().getFromIndex(5).getAsString(), "Answer", runtimeScene.getScene().getVariables().getFromIndex(30), runtimeScene.getScene().getVariables().getFromIndex(0));
+}{gdjs.evtTools.firebaseTools.database.getField(runtimeScene.getGame().getVariables().getFromIndex(5).getAsString(), "Clues", runtimeScene.getScene().getVariables().getFromIndex(38), runtimeScene.getScene().getVariables().getFromIndex(0));
 }}
 
 }
@@ -244,24 +238,23 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getScene().getVariables().getFromIndex(7).getAsString() == "0");
+{let isConditionTrue_1 = false;
+isConditionTrue_1 = false;
+{isConditionTrue_1 = (runtimeScene.getScene().getVariables().getFromIndex(7).getAsString() != "0");
 }
-if (isConditionTrue_0) {
-{runtimeScene.getGame().getVariables().getFromIndex(6).setString("x");
-}}
-
+if (isConditionTrue_1) {
+isConditionTrue_1 = false;
+{isConditionTrue_1 = (runtimeScene.getScene().getVariables().getFromIndex(7).getAsString() != "");
 }
-
-
-{
-
-
-let isConditionTrue_0 = false;
-isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getScene().getVariables().getFromIndex(7).getAsString() != "0");
+}
+isConditionTrue_0 = isConditionTrue_1;
 }
 if (isConditionTrue_0) {
 {runtimeScene.getGame().getVariables().getFromIndex(6).setString(runtimeScene.getScene().getVariables().getFromIndex(7).getAsString());
+}{gdjs.evtTools.firebaseTools.database.getField(runtimeScene.getGame().getVariables().getFromIndex(6).getAsString(), "Track", runtimeScene.getScene().getVariables().getFromIndex(15), runtimeScene.getScene().getVariables().getFromIndex(0));
+}{gdjs.evtTools.firebaseTools.database.getField(runtimeScene.getGame().getVariables().getFromIndex(6).getAsString(), "Score", runtimeScene.getScene().getVariables().getFromIndex(23), runtimeScene.getScene().getVariables().getFromIndex(0));
+}{gdjs.evtTools.firebaseTools.database.getField(runtimeScene.getGame().getVariables().getFromIndex(6).getAsString(), "Answer", runtimeScene.getScene().getVariables().getFromIndex(31), runtimeScene.getScene().getVariables().getFromIndex(0));
+}{gdjs.evtTools.firebaseTools.database.getField(runtimeScene.getGame().getVariables().getFromIndex(6).getAsString(), "Clues", runtimeScene.getScene().getVariables().getFromIndex(39), runtimeScene.getScene().getVariables().getFromIndex(0));
 }}
 
 }
@@ -272,24 +265,23 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getScene().getVariables().getFromIndex(8).getAsString() == "0");
+{let isConditionTrue_1 = false;
+isConditionTrue_1 = false;
+{isConditionTrue_1 = (runtimeScene.getScene().getVariables().getFromIndex(8).getAsString() != "0");
 }
-if (isConditionTrue_0) {
-{runtimeScene.getGame().getVariables().getFromIndex(7).setString("x");
-}}
-
+if (isConditionTrue_1) {
+isConditionTrue_1 = false;
+{isConditionTrue_1 = (runtimeScene.getScene().getVariables().getFromIndex(8).getAsString() != "");
 }
-
-
-{
-
-
-let isConditionTrue_0 = false;
-isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getScene().getVariables().getFromIndex(8).getAsString() != "0");
+}
+isConditionTrue_0 = isConditionTrue_1;
 }
 if (isConditionTrue_0) {
 {runtimeScene.getGame().getVariables().getFromIndex(7).setString(runtimeScene.getScene().getVariables().getFromIndex(8).getAsString());
+}{gdjs.evtTools.firebaseTools.database.getField(runtimeScene.getGame().getVariables().getFromIndex(7).getAsString(), "Track", runtimeScene.getScene().getVariables().getFromIndex(16), runtimeScene.getScene().getVariables().getFromIndex(0));
+}{gdjs.evtTools.firebaseTools.database.getField(runtimeScene.getGame().getVariables().getFromIndex(7).getAsString(), "Score", runtimeScene.getScene().getVariables().getFromIndex(24), runtimeScene.getScene().getVariables().getFromIndex(0));
+}{gdjs.evtTools.firebaseTools.database.getField(runtimeScene.getGame().getVariables().getFromIndex(7).getAsString(), "Answer", runtimeScene.getScene().getVariables().getFromIndex(32), runtimeScene.getScene().getVariables().getFromIndex(0));
+}{gdjs.evtTools.firebaseTools.database.getField(runtimeScene.getGame().getVariables().getFromIndex(7).getAsString(), "Clues", runtimeScene.getScene().getVariables().getFromIndex(40), runtimeScene.getScene().getVariables().getFromIndex(0));
 }}
 
 }
@@ -405,78 +397,6 @@ gdjs.copyArray(runtimeScene.getObjects("vermelha_txt"), gdjs.Geral_32EquipasCode
 }{for(var i = 0, len = gdjs.Geral_32EquipasCode.GDazulclara_9595txtObjects1.length ;i < len;++i) {
     gdjs.Geral_32EquipasCode.GDazulclara_9595txtObjects1[i].setWrappingWidth(454);
 }
-}}
-
-}
-
-
-{
-
-
-let isConditionTrue_0 = false;
-{
-{gdjs.evtTools.firebaseTools.database.getField(runtimeScene.getGame().getVariables().getFromIndex(0).getAsString(), "Track", runtimeScene.getScene().getVariables().getFromIndex(9), runtimeScene.getScene().getVariables().getFromIndex(0));
-}{gdjs.evtTools.firebaseTools.database.getField(runtimeScene.getGame().getVariables().getFromIndex(1).getAsString(), "Track", runtimeScene.getScene().getVariables().getFromIndex(10), runtimeScene.getScene().getVariables().getFromIndex(0));
-}{gdjs.evtTools.firebaseTools.database.getField(runtimeScene.getGame().getVariables().getFromIndex(2).getAsString(), "Track", runtimeScene.getScene().getVariables().getFromIndex(11), runtimeScene.getScene().getVariables().getFromIndex(0));
-}{gdjs.evtTools.firebaseTools.database.getField(runtimeScene.getGame().getVariables().getFromIndex(3).getAsString(), "Track", runtimeScene.getScene().getVariables().getFromIndex(12), runtimeScene.getScene().getVariables().getFromIndex(0));
-}{gdjs.evtTools.firebaseTools.database.getField(runtimeScene.getGame().getVariables().getFromIndex(4).getAsString(), "Track", runtimeScene.getScene().getVariables().getFromIndex(13), runtimeScene.getScene().getVariables().getFromIndex(0));
-}{gdjs.evtTools.firebaseTools.database.getField(runtimeScene.getGame().getVariables().getFromIndex(5).getAsString(), "Track", runtimeScene.getScene().getVariables().getFromIndex(14), runtimeScene.getScene().getVariables().getFromIndex(0));
-}{gdjs.evtTools.firebaseTools.database.getField(runtimeScene.getGame().getVariables().getFromIndex(6).getAsString(), "Track", runtimeScene.getScene().getVariables().getFromIndex(15), runtimeScene.getScene().getVariables().getFromIndex(0));
-}{gdjs.evtTools.firebaseTools.database.getField(runtimeScene.getGame().getVariables().getFromIndex(7).getAsString(), "Track", runtimeScene.getScene().getVariables().getFromIndex(16), runtimeScene.getScene().getVariables().getFromIndex(0));
-}}
-
-}
-
-
-{
-
-
-let isConditionTrue_0 = false;
-{
-{gdjs.evtTools.firebaseTools.database.getField(runtimeScene.getGame().getVariables().getFromIndex(0).getAsString(), "Score", runtimeScene.getScene().getVariables().getFromIndex(17), runtimeScene.getScene().getVariables().getFromIndex(0));
-}{gdjs.evtTools.firebaseTools.database.getField(runtimeScene.getGame().getVariables().getFromIndex(1).getAsString(), "Score", runtimeScene.getScene().getVariables().getFromIndex(18), runtimeScene.getScene().getVariables().getFromIndex(0));
-}{gdjs.evtTools.firebaseTools.database.getField(runtimeScene.getGame().getVariables().getFromIndex(2).getAsString(), "Score", runtimeScene.getScene().getVariables().getFromIndex(19), runtimeScene.getScene().getVariables().getFromIndex(0));
-}{gdjs.evtTools.firebaseTools.database.getField(runtimeScene.getGame().getVariables().getFromIndex(3).getAsString(), "Score", runtimeScene.getScene().getVariables().getFromIndex(20), runtimeScene.getScene().getVariables().getFromIndex(0));
-}{gdjs.evtTools.firebaseTools.database.getField(runtimeScene.getGame().getVariables().getFromIndex(4).getAsString(), "Score", runtimeScene.getScene().getVariables().getFromIndex(21), runtimeScene.getScene().getVariables().getFromIndex(0));
-}{gdjs.evtTools.firebaseTools.database.getField(runtimeScene.getGame().getVariables().getFromIndex(5).getAsString(), "Score", runtimeScene.getScene().getVariables().getFromIndex(22), runtimeScene.getScene().getVariables().getFromIndex(0));
-}{gdjs.evtTools.firebaseTools.database.getField(runtimeScene.getGame().getVariables().getFromIndex(6).getAsString(), "Score", runtimeScene.getScene().getVariables().getFromIndex(23), runtimeScene.getScene().getVariables().getFromIndex(0));
-}{gdjs.evtTools.firebaseTools.database.getField(runtimeScene.getGame().getVariables().getFromIndex(7).getAsString(), "Score", runtimeScene.getScene().getVariables().getFromIndex(24), runtimeScene.getScene().getVariables().getFromIndex(0));
-}}
-
-}
-
-
-{
-
-
-let isConditionTrue_0 = false;
-{
-{gdjs.evtTools.firebaseTools.database.getField(runtimeScene.getGame().getVariables().getFromIndex(0).getAsString(), "Answer", runtimeScene.getScene().getVariables().getFromIndex(25), runtimeScene.getScene().getVariables().getFromIndex(0));
-}{gdjs.evtTools.firebaseTools.database.getField(runtimeScene.getGame().getVariables().getFromIndex(1).getAsString(), "Answer", runtimeScene.getScene().getVariables().getFromIndex(26), runtimeScene.getScene().getVariables().getFromIndex(0));
-}{gdjs.evtTools.firebaseTools.database.getField(runtimeScene.getGame().getVariables().getFromIndex(2).getAsString(), "Answer", runtimeScene.getScene().getVariables().getFromIndex(27), runtimeScene.getScene().getVariables().getFromIndex(0));
-}{gdjs.evtTools.firebaseTools.database.getField(runtimeScene.getGame().getVariables().getFromIndex(3).getAsString(), "Answer", runtimeScene.getScene().getVariables().getFromIndex(28), runtimeScene.getScene().getVariables().getFromIndex(0));
-}{gdjs.evtTools.firebaseTools.database.getField(runtimeScene.getGame().getVariables().getFromIndex(4).getAsString(), "Answer", runtimeScene.getScene().getVariables().getFromIndex(29), runtimeScene.getScene().getVariables().getFromIndex(0));
-}{gdjs.evtTools.firebaseTools.database.getField(runtimeScene.getGame().getVariables().getFromIndex(5).getAsString(), "Answer", runtimeScene.getScene().getVariables().getFromIndex(30), runtimeScene.getScene().getVariables().getFromIndex(0));
-}{gdjs.evtTools.firebaseTools.database.getField(runtimeScene.getGame().getVariables().getFromIndex(6).getAsString(), "Answer", runtimeScene.getScene().getVariables().getFromIndex(31), runtimeScene.getScene().getVariables().getFromIndex(0));
-}{gdjs.evtTools.firebaseTools.database.getField(runtimeScene.getGame().getVariables().getFromIndex(7).getAsString(), "Answer", runtimeScene.getScene().getVariables().getFromIndex(32), runtimeScene.getScene().getVariables().getFromIndex(0));
-}}
-
-}
-
-
-{
-
-
-let isConditionTrue_0 = false;
-{
-{gdjs.evtTools.firebaseTools.database.getField(runtimeScene.getGame().getVariables().getFromIndex(0).getAsString(), "Clues", runtimeScene.getScene().getVariables().getFromIndex(33), runtimeScene.getScene().getVariables().getFromIndex(0));
-}{gdjs.evtTools.firebaseTools.database.getField(runtimeScene.getGame().getVariables().getFromIndex(1).getAsString(), "Clues", runtimeScene.getScene().getVariables().getFromIndex(34), runtimeScene.getScene().getVariables().getFromIndex(0));
-}{gdjs.evtTools.firebaseTools.database.getField(runtimeScene.getGame().getVariables().getFromIndex(2).getAsString(), "Clues", runtimeScene.getScene().getVariables().getFromIndex(35), runtimeScene.getScene().getVariables().getFromIndex(0));
-}{gdjs.evtTools.firebaseTools.database.getField(runtimeScene.getGame().getVariables().getFromIndex(3).getAsString(), "Clues", runtimeScene.getScene().getVariables().getFromIndex(36), runtimeScene.getScene().getVariables().getFromIndex(0));
-}{gdjs.evtTools.firebaseTools.database.getField(runtimeScene.getGame().getVariables().getFromIndex(4).getAsString(), "Clues", runtimeScene.getScene().getVariables().getFromIndex(37), runtimeScene.getScene().getVariables().getFromIndex(0));
-}{gdjs.evtTools.firebaseTools.database.getField(runtimeScene.getGame().getVariables().getFromIndex(5).getAsString(), "Clues", runtimeScene.getScene().getVariables().getFromIndex(38), runtimeScene.getScene().getVariables().getFromIndex(0));
-}{gdjs.evtTools.firebaseTools.database.getField(runtimeScene.getGame().getVariables().getFromIndex(6).getAsString(), "Clues", runtimeScene.getScene().getVariables().getFromIndex(39), runtimeScene.getScene().getVariables().getFromIndex(0));
-}{gdjs.evtTools.firebaseTools.database.getField(runtimeScene.getGame().getVariables().getFromIndex(7).getAsString(), "Clues", runtimeScene.getScene().getVariables().getFromIndex(40), runtimeScene.getScene().getVariables().getFromIndex(0));
 }}
 
 }
