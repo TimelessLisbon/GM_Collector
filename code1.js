@@ -6,22 +6,6 @@ gdjs.Geral_32EquipasCode.GDhackObjects1= [];
 gdjs.Geral_32EquipasCode.GDhackObjects2= [];
 gdjs.Geral_32EquipasCode.GDir_9595amarelaObjects1= [];
 gdjs.Geral_32EquipasCode.GDir_9595amarelaObjects2= [];
-gdjs.Geral_32EquipasCode.GDamarela_9595txtObjects1= [];
-gdjs.Geral_32EquipasCode.GDamarela_9595txtObjects2= [];
-gdjs.Geral_32EquipasCode.GDazul_9595txtObjects1= [];
-gdjs.Geral_32EquipasCode.GDazul_9595txtObjects2= [];
-gdjs.Geral_32EquipasCode.GDvermelha_9595txtObjects1= [];
-gdjs.Geral_32EquipasCode.GDvermelha_9595txtObjects2= [];
-gdjs.Geral_32EquipasCode.GDcastanha_9595txtObjects1= [];
-gdjs.Geral_32EquipasCode.GDcastanha_9595txtObjects2= [];
-gdjs.Geral_32EquipasCode.GDrosa_9595txtObjects1= [];
-gdjs.Geral_32EquipasCode.GDrosa_9595txtObjects2= [];
-gdjs.Geral_32EquipasCode.GDroxa_9595txtObjects1= [];
-gdjs.Geral_32EquipasCode.GDroxa_9595txtObjects2= [];
-gdjs.Geral_32EquipasCode.GDverde_9595txtObjects1= [];
-gdjs.Geral_32EquipasCode.GDverde_9595txtObjects2= [];
-gdjs.Geral_32EquipasCode.GDazulclara_9595txtObjects1= [];
-gdjs.Geral_32EquipasCode.GDazulclara_9595txtObjects2= [];
 gdjs.Geral_32EquipasCode.GDhomeObjects1= [];
 gdjs.Geral_32EquipasCode.GDhomeObjects2= [];
 gdjs.Geral_32EquipasCode.GDir_9595azulObjects1= [];
@@ -42,6 +26,22 @@ gdjs.Geral_32EquipasCode.GDfundoObjects1= [];
 gdjs.Geral_32EquipasCode.GDfundoObjects2= [];
 gdjs.Geral_32EquipasCode.GDhome2Objects1= [];
 gdjs.Geral_32EquipasCode.GDhome2Objects2= [];
+gdjs.Geral_32EquipasCode.GDamarela_9595BBtxtObjects1= [];
+gdjs.Geral_32EquipasCode.GDamarela_9595BBtxtObjects2= [];
+gdjs.Geral_32EquipasCode.GDazul_9595BBtxtObjects1= [];
+gdjs.Geral_32EquipasCode.GDazul_9595BBtxtObjects2= [];
+gdjs.Geral_32EquipasCode.GDcastanha_9595BBtxtObjects1= [];
+gdjs.Geral_32EquipasCode.GDcastanha_9595BBtxtObjects2= [];
+gdjs.Geral_32EquipasCode.GDrosa_9595BBtxtObjects1= [];
+gdjs.Geral_32EquipasCode.GDrosa_9595BBtxtObjects2= [];
+gdjs.Geral_32EquipasCode.GDroxa_9595BBtxtObjects1= [];
+gdjs.Geral_32EquipasCode.GDroxa_9595BBtxtObjects2= [];
+gdjs.Geral_32EquipasCode.GDverde_9595BBtxtObjects1= [];
+gdjs.Geral_32EquipasCode.GDverde_9595BBtxtObjects2= [];
+gdjs.Geral_32EquipasCode.GDazulclara_9595BBtxtObjects1= [];
+gdjs.Geral_32EquipasCode.GDazulclara_9595BBtxtObjects2= [];
+gdjs.Geral_32EquipasCode.GDvermelha_9595BBtxtObjects1= [];
+gdjs.Geral_32EquipasCode.GDvermelha_9595BBtxtObjects2= [];
 
 
 gdjs.Geral_32EquipasCode.eventsList0 = function(runtimeScene) {
@@ -299,37 +299,37 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 {
-gdjs.copyArray(runtimeScene.getObjects("amarela_txt"), gdjs.Geral_32EquipasCode.GDamarela_9595txtObjects1);
-gdjs.copyArray(runtimeScene.getObjects("azul_txt"), gdjs.Geral_32EquipasCode.GDazul_9595txtObjects1);
-gdjs.copyArray(runtimeScene.getObjects("azulclara_txt"), gdjs.Geral_32EquipasCode.GDazulclara_9595txtObjects1);
-gdjs.copyArray(runtimeScene.getObjects("castanha_txt"), gdjs.Geral_32EquipasCode.GDcastanha_9595txtObjects1);
-gdjs.copyArray(runtimeScene.getObjects("rosa_txt"), gdjs.Geral_32EquipasCode.GDrosa_9595txtObjects1);
-gdjs.copyArray(runtimeScene.getObjects("roxa_txt"), gdjs.Geral_32EquipasCode.GDroxa_9595txtObjects1);
-gdjs.copyArray(runtimeScene.getObjects("verde_txt"), gdjs.Geral_32EquipasCode.GDverde_9595txtObjects1);
-gdjs.copyArray(runtimeScene.getObjects("vermelha_txt"), gdjs.Geral_32EquipasCode.GDvermelha_9595txtObjects1);
-{for(var i = 0, len = gdjs.Geral_32EquipasCode.GDamarela_9595txtObjects1.length ;i < len;++i) {
-    gdjs.Geral_32EquipasCode.GDamarela_9595txtObjects1[i].getBehavior("Text").setText("Local: " + runtimeScene.getScene().getVariables().getFromIndex(9).getAsString() + " Score: " + runtimeScene.getScene().getVariables().getFromIndex(17).getAsString() + " Rsp: " + runtimeScene.getScene().getVariables().getFromIndex(25).getAsString() + " Erros:" + runtimeScene.getScene().getVariables().getFromIndex(33).getAsString());
+gdjs.copyArray(runtimeScene.getObjects("amarela_BBtxt"), gdjs.Geral_32EquipasCode.GDamarela_9595BBtxtObjects1);
+gdjs.copyArray(runtimeScene.getObjects("azul_BBtxt"), gdjs.Geral_32EquipasCode.GDazul_9595BBtxtObjects1);
+gdjs.copyArray(runtimeScene.getObjects("azulclara_BBtxt"), gdjs.Geral_32EquipasCode.GDazulclara_9595BBtxtObjects1);
+gdjs.copyArray(runtimeScene.getObjects("castanha_BBtxt"), gdjs.Geral_32EquipasCode.GDcastanha_9595BBtxtObjects1);
+gdjs.copyArray(runtimeScene.getObjects("rosa_BBtxt"), gdjs.Geral_32EquipasCode.GDrosa_9595BBtxtObjects1);
+gdjs.copyArray(runtimeScene.getObjects("roxa_BBtxt"), gdjs.Geral_32EquipasCode.GDroxa_9595BBtxtObjects1);
+gdjs.copyArray(runtimeScene.getObjects("verde_BBtxt"), gdjs.Geral_32EquipasCode.GDverde_9595BBtxtObjects1);
+gdjs.copyArray(runtimeScene.getObjects("vermelha_BBtxt"), gdjs.Geral_32EquipasCode.GDvermelha_9595BBtxtObjects1);
+{for(var i = 0, len = gdjs.Geral_32EquipasCode.GDamarela_9595BBtxtObjects1.length ;i < len;++i) {
+    gdjs.Geral_32EquipasCode.GDamarela_9595BBtxtObjects1[i].setBBText("[outline=black][b][color=yellow]Local:[/color][/b][/outline] " + runtimeScene.getScene().getVariables().getFromIndex(9).getAsString() + "  [outline=black][b][color=yellow]Score:[/color][/b][/outline] " + runtimeScene.getScene().getVariables().getFromIndex(17).getAsString() + gdjs.evtTools.string.newLine() + "[outline=black][b][color=yellow]Rsp:[/color][/b][/outline] " + runtimeScene.getScene().getVariables().getFromIndex(25).getAsString() + "  [outline=black][b][color=yellow]Erros:[/color][/b][/outline] " + runtimeScene.getScene().getVariables().getFromIndex(33).getAsString());
 }
-}{for(var i = 0, len = gdjs.Geral_32EquipasCode.GDazul_9595txtObjects1.length ;i < len;++i) {
-    gdjs.Geral_32EquipasCode.GDazul_9595txtObjects1[i].getBehavior("Text").setText("Local: " + runtimeScene.getScene().getVariables().getFromIndex(10).getAsString() + " Score: " + runtimeScene.getScene().getVariables().getFromIndex(18).getAsString() + " Rsp: " + runtimeScene.getScene().getVariables().getFromIndex(26).getAsString() + " Erros:" + runtimeScene.getScene().getVariables().getFromIndex(34).getAsString());
+}{for(var i = 0, len = gdjs.Geral_32EquipasCode.GDazul_9595BBtxtObjects1.length ;i < len;++i) {
+    gdjs.Geral_32EquipasCode.GDazul_9595BBtxtObjects1[i].setBBText("[b][color=#00008B]Local:[/color][/b] " + runtimeScene.getScene().getVariables().getFromIndex(10).getAsString() + "  [b][color=#00008B]Score:[/color][/b] " + runtimeScene.getScene().getVariables().getFromIndex(18).getAsString() + gdjs.evtTools.string.newLine() + "[b][color=#00008B]Rsp:[/color][/b] " + runtimeScene.getScene().getVariables().getFromIndex(26).getAsString() + "  [b][color=#00008B]Erros:[/color][/b] " + runtimeScene.getScene().getVariables().getFromIndex(34).getAsString());
 }
-}{for(var i = 0, len = gdjs.Geral_32EquipasCode.GDcastanha_9595txtObjects1.length ;i < len;++i) {
-    gdjs.Geral_32EquipasCode.GDcastanha_9595txtObjects1[i].getBehavior("Text").setText("Local: " + runtimeScene.getScene().getVariables().getFromIndex(11).getAsString() + " Score: " + runtimeScene.getScene().getVariables().getFromIndex(19).getAsString() + " Rsp: " + runtimeScene.getScene().getVariables().getFromIndex(27).getAsString() + " Erros:" + runtimeScene.getScene().getVariables().getFromIndex(35).getAsString());
+}{for(var i = 0, len = gdjs.Geral_32EquipasCode.GDcastanha_9595BBtxtObjects1.length ;i < len;++i) {
+    gdjs.Geral_32EquipasCode.GDcastanha_9595BBtxtObjects1[i].setBBText("[b][color=orange]Local:[/color][/b] " + runtimeScene.getScene().getVariables().getFromIndex(11).getAsString() + "  [b][color=orange]Score:[/color][/b] " + runtimeScene.getScene().getVariables().getFromIndex(19).getAsString() + gdjs.evtTools.string.newLine() + "[b][color=orange]Rsp:[/color][/b] " + runtimeScene.getScene().getVariables().getFromIndex(27).getAsString() + "  [b][color=orange]Erros:[/color][/b] " + runtimeScene.getScene().getVariables().getFromIndex(35).getAsString());
 }
-}{for(var i = 0, len = gdjs.Geral_32EquipasCode.GDrosa_9595txtObjects1.length ;i < len;++i) {
-    gdjs.Geral_32EquipasCode.GDrosa_9595txtObjects1[i].getBehavior("Text").setText("Local: " + runtimeScene.getScene().getVariables().getFromIndex(12).getAsString() + " Score: " + runtimeScene.getScene().getVariables().getFromIndex(20).getAsString() + " Rsp: " + runtimeScene.getScene().getVariables().getFromIndex(28).getAsString() + " Erros:" + runtimeScene.getScene().getVariables().getFromIndex(36).getAsString());
+}{for(var i = 0, len = gdjs.Geral_32EquipasCode.GDrosa_9595BBtxtObjects1.length ;i < len;++i) {
+    gdjs.Geral_32EquipasCode.GDrosa_9595BBtxtObjects1[i].setBBText("[b][color=lightgreen]Local:[/color][/b] " + runtimeScene.getScene().getVariables().getFromIndex(12).getAsString() + "  [b][color=lightgreen]Score:[/color][/b] " + runtimeScene.getScene().getVariables().getFromIndex(20).getAsString() + gdjs.evtTools.string.newLine() + "[b][color=lightgreen]Rsp:[/color][/b] " + runtimeScene.getScene().getVariables().getFromIndex(28).getAsString() + "  [b][color=lightgreen]Erros:[/color][/b] " + runtimeScene.getScene().getVariables().getFromIndex(36).getAsString());
 }
-}{for(var i = 0, len = gdjs.Geral_32EquipasCode.GDroxa_9595txtObjects1.length ;i < len;++i) {
-    gdjs.Geral_32EquipasCode.GDroxa_9595txtObjects1[i].getBehavior("Text").setText("Local: " + runtimeScene.getScene().getVariables().getFromIndex(13).getAsString() + " Score: " + runtimeScene.getScene().getVariables().getFromIndex(21).getAsString() + " Rsp: " + runtimeScene.getScene().getVariables().getFromIndex(29).getAsString() + " Erros:" + runtimeScene.getScene().getVariables().getFromIndex(37).getAsString());
+}{for(var i = 0, len = gdjs.Geral_32EquipasCode.GDroxa_9595BBtxtObjects1.length ;i < len;++i) {
+    gdjs.Geral_32EquipasCode.GDroxa_9595BBtxtObjects1[i].setBBText("[b][color=#FF69B4]Local:[/color][/b] " + runtimeScene.getScene().getVariables().getFromIndex(13).getAsString() + "  [b][color=#FF69B4]Score:[/color][/b] " + runtimeScene.getScene().getVariables().getFromIndex(21).getAsString() + gdjs.evtTools.string.newLine() + "[b][color=#FF69B4]Rsp:[/color][/b] " + runtimeScene.getScene().getVariables().getFromIndex(29).getAsString() + "  [b][color=#FF69B4]Erros:[/color][/b] " + runtimeScene.getScene().getVariables().getFromIndex(37).getAsString());
 }
-}{for(var i = 0, len = gdjs.Geral_32EquipasCode.GDverde_9595txtObjects1.length ;i < len;++i) {
-    gdjs.Geral_32EquipasCode.GDverde_9595txtObjects1[i].getBehavior("Text").setText("Local: " + runtimeScene.getScene().getVariables().getFromIndex(14).getAsString() + " Score: " + runtimeScene.getScene().getVariables().getFromIndex(22).getAsString() + " Rsp: " + runtimeScene.getScene().getVariables().getFromIndex(30).getAsString() + " Erros:" + runtimeScene.getScene().getVariables().getFromIndex(38).getAsString());
+}{for(var i = 0, len = gdjs.Geral_32EquipasCode.GDverde_9595BBtxtObjects1.length ;i < len;++i) {
+    gdjs.Geral_32EquipasCode.GDverde_9595BBtxtObjects1[i].setBBText("[b][color=#006400]Local:[/color][/b] " + runtimeScene.getScene().getVariables().getFromIndex(14).getAsString() + "  [b][color=#006400]Score:[/color][/b] " + runtimeScene.getScene().getVariables().getFromIndex(22).getAsString() + gdjs.evtTools.string.newLine() + "[b][color=#006400]Rsp:[/color][/b] " + runtimeScene.getScene().getVariables().getFromIndex(30).getAsString() + "  [b][color=#006400]Erros:[/color][/b] " + runtimeScene.getScene().getVariables().getFromIndex(38).getAsString());
 }
-}{for(var i = 0, len = gdjs.Geral_32EquipasCode.GDazulclara_9595txtObjects1.length ;i < len;++i) {
-    gdjs.Geral_32EquipasCode.GDazulclara_9595txtObjects1[i].getBehavior("Text").setText("Local: " + runtimeScene.getScene().getVariables().getFromIndex(15).getAsString() + " Score: " + runtimeScene.getScene().getVariables().getFromIndex(23).getAsString() + " Rsp: " + runtimeScene.getScene().getVariables().getFromIndex(31).getAsString() + " Erros:" + runtimeScene.getScene().getVariables().getFromIndex(39).getAsString());
+}{for(var i = 0, len = gdjs.Geral_32EquipasCode.GDazulclara_9595BBtxtObjects1.length ;i < len;++i) {
+    gdjs.Geral_32EquipasCode.GDazulclara_9595BBtxtObjects1[i].setBBText("[b][color=#ADD8E6]Local:[/color][/b] " + runtimeScene.getScene().getVariables().getFromIndex(15).getAsString() + "  [b][color=#ADD8E6]Score:[/color][/b] " + runtimeScene.getScene().getVariables().getFromIndex(23).getAsString() + gdjs.evtTools.string.newLine() + "[b][color=#ADD8E6]Rsp:[/color][/b] " + runtimeScene.getScene().getVariables().getFromIndex(31).getAsString() + "  [b][color=#ADD8E6]Erros:[/color][/b] " + runtimeScene.getScene().getVariables().getFromIndex(39).getAsString());
 }
-}{for(var i = 0, len = gdjs.Geral_32EquipasCode.GDvermelha_9595txtObjects1.length ;i < len;++i) {
-    gdjs.Geral_32EquipasCode.GDvermelha_9595txtObjects1[i].getBehavior("Text").setText("Local: " + runtimeScene.getScene().getVariables().getFromIndex(16).getAsString() + " Score: " + runtimeScene.getScene().getVariables().getFromIndex(24).getAsString() + " Rsp: " + runtimeScene.getScene().getVariables().getFromIndex(32).getAsString() + " Erros:" + runtimeScene.getScene().getVariables().getFromIndex(40).getAsString());
+}{for(var i = 0, len = gdjs.Geral_32EquipasCode.GDvermelha_9595BBtxtObjects1.length ;i < len;++i) {
+    gdjs.Geral_32EquipasCode.GDvermelha_9595BBtxtObjects1[i].setBBText("[b][color=red]Local:[/color][/b] " + runtimeScene.getScene().getVariables().getFromIndex(16).getAsString() + "  [b][color=red]Score:[/color][/b] " + runtimeScene.getScene().getVariables().getFromIndex(24).getAsString() + gdjs.evtTools.string.newLine() + "[b][color=red]Rsp:[/color][/b] " + runtimeScene.getScene().getVariables().getFromIndex(32).getAsString() + "  [b][color=red]Erros:[/color][/b] " + runtimeScene.getScene().getVariables().getFromIndex(40).getAsString());
 }
 }}
 
@@ -341,61 +341,61 @@ gdjs.copyArray(runtimeScene.getObjects("vermelha_txt"), gdjs.Geral_32EquipasCode
 
 let isConditionTrue_0 = false;
 {
-gdjs.copyArray(runtimeScene.getObjects("amarela_txt"), gdjs.Geral_32EquipasCode.GDamarela_9595txtObjects1);
-gdjs.copyArray(runtimeScene.getObjects("azul_txt"), gdjs.Geral_32EquipasCode.GDazul_9595txtObjects1);
-gdjs.copyArray(runtimeScene.getObjects("azulclara_txt"), gdjs.Geral_32EquipasCode.GDazulclara_9595txtObjects1);
-gdjs.copyArray(runtimeScene.getObjects("castanha_txt"), gdjs.Geral_32EquipasCode.GDcastanha_9595txtObjects1);
-gdjs.copyArray(runtimeScene.getObjects("rosa_txt"), gdjs.Geral_32EquipasCode.GDrosa_9595txtObjects1);
-gdjs.copyArray(runtimeScene.getObjects("roxa_txt"), gdjs.Geral_32EquipasCode.GDroxa_9595txtObjects1);
-gdjs.copyArray(runtimeScene.getObjects("verde_txt"), gdjs.Geral_32EquipasCode.GDverde_9595txtObjects1);
-gdjs.copyArray(runtimeScene.getObjects("vermelha_txt"), gdjs.Geral_32EquipasCode.GDvermelha_9595txtObjects1);
-{for(var i = 0, len = gdjs.Geral_32EquipasCode.GDamarela_9595txtObjects1.length ;i < len;++i) {
-    gdjs.Geral_32EquipasCode.GDamarela_9595txtObjects1[i].setWrapping(true);
+gdjs.copyArray(runtimeScene.getObjects("amarela_BBtxt"), gdjs.Geral_32EquipasCode.GDamarela_9595BBtxtObjects1);
+gdjs.copyArray(runtimeScene.getObjects("azul_BBtxt"), gdjs.Geral_32EquipasCode.GDazul_9595BBtxtObjects1);
+gdjs.copyArray(runtimeScene.getObjects("azulclara_BBtxt"), gdjs.Geral_32EquipasCode.GDazulclara_9595BBtxtObjects1);
+gdjs.copyArray(runtimeScene.getObjects("castanha_BBtxt"), gdjs.Geral_32EquipasCode.GDcastanha_9595BBtxtObjects1);
+gdjs.copyArray(runtimeScene.getObjects("rosa_BBtxt"), gdjs.Geral_32EquipasCode.GDrosa_9595BBtxtObjects1);
+gdjs.copyArray(runtimeScene.getObjects("roxa_BBtxt"), gdjs.Geral_32EquipasCode.GDroxa_9595BBtxtObjects1);
+gdjs.copyArray(runtimeScene.getObjects("verde_BBtxt"), gdjs.Geral_32EquipasCode.GDverde_9595BBtxtObjects1);
+gdjs.copyArray(runtimeScene.getObjects("vermelha_BBtxt"), gdjs.Geral_32EquipasCode.GDvermelha_9595BBtxtObjects1);
+{for(var i = 0, len = gdjs.Geral_32EquipasCode.GDamarela_9595BBtxtObjects1.length ;i < len;++i) {
+    gdjs.Geral_32EquipasCode.GDamarela_9595BBtxtObjects1[i].setWrapping(true);
 }
-}{for(var i = 0, len = gdjs.Geral_32EquipasCode.GDazul_9595txtObjects1.length ;i < len;++i) {
-    gdjs.Geral_32EquipasCode.GDazul_9595txtObjects1[i].setWrapping(true);
+}{for(var i = 0, len = gdjs.Geral_32EquipasCode.GDazul_9595BBtxtObjects1.length ;i < len;++i) {
+    gdjs.Geral_32EquipasCode.GDazul_9595BBtxtObjects1[i].setWrapping(true);
 }
-}{for(var i = 0, len = gdjs.Geral_32EquipasCode.GDvermelha_9595txtObjects1.length ;i < len;++i) {
-    gdjs.Geral_32EquipasCode.GDvermelha_9595txtObjects1[i].setWrapping(true);
+}{for(var i = 0, len = gdjs.Geral_32EquipasCode.GDcastanha_9595BBtxtObjects1.length ;i < len;++i) {
+    gdjs.Geral_32EquipasCode.GDcastanha_9595BBtxtObjects1[i].setWrapping(true);
 }
-}{for(var i = 0, len = gdjs.Geral_32EquipasCode.GDcastanha_9595txtObjects1.length ;i < len;++i) {
-    gdjs.Geral_32EquipasCode.GDcastanha_9595txtObjects1[i].setWrapping(true);
+}{for(var i = 0, len = gdjs.Geral_32EquipasCode.GDrosa_9595BBtxtObjects1.length ;i < len;++i) {
+    gdjs.Geral_32EquipasCode.GDrosa_9595BBtxtObjects1[i].setWrapping(true);
 }
-}{for(var i = 0, len = gdjs.Geral_32EquipasCode.GDrosa_9595txtObjects1.length ;i < len;++i) {
-    gdjs.Geral_32EquipasCode.GDrosa_9595txtObjects1[i].setWrapping(true);
+}{for(var i = 0, len = gdjs.Geral_32EquipasCode.GDroxa_9595BBtxtObjects1.length ;i < len;++i) {
+    gdjs.Geral_32EquipasCode.GDroxa_9595BBtxtObjects1[i].setWrapping(true);
 }
-}{for(var i = 0, len = gdjs.Geral_32EquipasCode.GDroxa_9595txtObjects1.length ;i < len;++i) {
-    gdjs.Geral_32EquipasCode.GDroxa_9595txtObjects1[i].setWrapping(true);
+}{for(var i = 0, len = gdjs.Geral_32EquipasCode.GDverde_9595BBtxtObjects1.length ;i < len;++i) {
+    gdjs.Geral_32EquipasCode.GDverde_9595BBtxtObjects1[i].setWrapping(true);
 }
-}{for(var i = 0, len = gdjs.Geral_32EquipasCode.GDverde_9595txtObjects1.length ;i < len;++i) {
-    gdjs.Geral_32EquipasCode.GDverde_9595txtObjects1[i].setWrapping(true);
+}{for(var i = 0, len = gdjs.Geral_32EquipasCode.GDazulclara_9595BBtxtObjects1.length ;i < len;++i) {
+    gdjs.Geral_32EquipasCode.GDazulclara_9595BBtxtObjects1[i].setWrapping(true);
 }
-}{for(var i = 0, len = gdjs.Geral_32EquipasCode.GDazulclara_9595txtObjects1.length ;i < len;++i) {
-    gdjs.Geral_32EquipasCode.GDazulclara_9595txtObjects1[i].setWrapping(true);
+}{for(var i = 0, len = gdjs.Geral_32EquipasCode.GDvermelha_9595BBtxtObjects1.length ;i < len;++i) {
+    gdjs.Geral_32EquipasCode.GDvermelha_9595BBtxtObjects1[i].setWrapping(true);
 }
-}{for(var i = 0, len = gdjs.Geral_32EquipasCode.GDazul_9595txtObjects1.length ;i < len;++i) {
-    gdjs.Geral_32EquipasCode.GDazul_9595txtObjects1[i].setWrappingWidth(454);
+}{for(var i = 0, len = gdjs.Geral_32EquipasCode.GDamarela_9595BBtxtObjects1.length ;i < len;++i) {
+    gdjs.Geral_32EquipasCode.GDamarela_9595BBtxtObjects1[i].setWrappingWidth(454);
 }
-}{for(var i = 0, len = gdjs.Geral_32EquipasCode.GDamarela_9595txtObjects1.length ;i < len;++i) {
-    gdjs.Geral_32EquipasCode.GDamarela_9595txtObjects1[i].setWrappingWidth(454);
+}{for(var i = 0, len = gdjs.Geral_32EquipasCode.GDazul_9595BBtxtObjects1.length ;i < len;++i) {
+    gdjs.Geral_32EquipasCode.GDazul_9595BBtxtObjects1[i].setWrappingWidth(454);
 }
-}{for(var i = 0, len = gdjs.Geral_32EquipasCode.GDvermelha_9595txtObjects1.length ;i < len;++i) {
-    gdjs.Geral_32EquipasCode.GDvermelha_9595txtObjects1[i].setWrappingWidth(454);
+}{for(var i = 0, len = gdjs.Geral_32EquipasCode.GDcastanha_9595BBtxtObjects1.length ;i < len;++i) {
+    gdjs.Geral_32EquipasCode.GDcastanha_9595BBtxtObjects1[i].setWrappingWidth(454);
 }
-}{for(var i = 0, len = gdjs.Geral_32EquipasCode.GDcastanha_9595txtObjects1.length ;i < len;++i) {
-    gdjs.Geral_32EquipasCode.GDcastanha_9595txtObjects1[i].setWrappingWidth(454);
+}{for(var i = 0, len = gdjs.Geral_32EquipasCode.GDrosa_9595BBtxtObjects1.length ;i < len;++i) {
+    gdjs.Geral_32EquipasCode.GDrosa_9595BBtxtObjects1[i].setWrappingWidth(454);
 }
-}{for(var i = 0, len = gdjs.Geral_32EquipasCode.GDrosa_9595txtObjects1.length ;i < len;++i) {
-    gdjs.Geral_32EquipasCode.GDrosa_9595txtObjects1[i].setWrappingWidth(454);
+}{for(var i = 0, len = gdjs.Geral_32EquipasCode.GDroxa_9595BBtxtObjects1.length ;i < len;++i) {
+    gdjs.Geral_32EquipasCode.GDroxa_9595BBtxtObjects1[i].setWrappingWidth(454);
 }
-}{for(var i = 0, len = gdjs.Geral_32EquipasCode.GDroxa_9595txtObjects1.length ;i < len;++i) {
-    gdjs.Geral_32EquipasCode.GDroxa_9595txtObjects1[i].setWrappingWidth(454);
+}{for(var i = 0, len = gdjs.Geral_32EquipasCode.GDverde_9595BBtxtObjects1.length ;i < len;++i) {
+    gdjs.Geral_32EquipasCode.GDverde_9595BBtxtObjects1[i].setWrappingWidth(454);
 }
-}{for(var i = 0, len = gdjs.Geral_32EquipasCode.GDverde_9595txtObjects1.length ;i < len;++i) {
-    gdjs.Geral_32EquipasCode.GDverde_9595txtObjects1[i].setWrappingWidth(454);
+}{for(var i = 0, len = gdjs.Geral_32EquipasCode.GDazulclara_9595BBtxtObjects1.length ;i < len;++i) {
+    gdjs.Geral_32EquipasCode.GDazulclara_9595BBtxtObjects1[i].setWrappingWidth(454);
 }
-}{for(var i = 0, len = gdjs.Geral_32EquipasCode.GDazulclara_9595txtObjects1.length ;i < len;++i) {
-    gdjs.Geral_32EquipasCode.GDazulclara_9595txtObjects1[i].setWrappingWidth(454);
+}{for(var i = 0, len = gdjs.Geral_32EquipasCode.GDvermelha_9595BBtxtObjects1.length ;i < len;++i) {
+    gdjs.Geral_32EquipasCode.GDvermelha_9595BBtxtObjects1[i].setWrappingWidth(454);
 }
 }}
 
@@ -637,22 +637,6 @@ gdjs.Geral_32EquipasCode.GDhackObjects1.length = 0;
 gdjs.Geral_32EquipasCode.GDhackObjects2.length = 0;
 gdjs.Geral_32EquipasCode.GDir_9595amarelaObjects1.length = 0;
 gdjs.Geral_32EquipasCode.GDir_9595amarelaObjects2.length = 0;
-gdjs.Geral_32EquipasCode.GDamarela_9595txtObjects1.length = 0;
-gdjs.Geral_32EquipasCode.GDamarela_9595txtObjects2.length = 0;
-gdjs.Geral_32EquipasCode.GDazul_9595txtObjects1.length = 0;
-gdjs.Geral_32EquipasCode.GDazul_9595txtObjects2.length = 0;
-gdjs.Geral_32EquipasCode.GDvermelha_9595txtObjects1.length = 0;
-gdjs.Geral_32EquipasCode.GDvermelha_9595txtObjects2.length = 0;
-gdjs.Geral_32EquipasCode.GDcastanha_9595txtObjects1.length = 0;
-gdjs.Geral_32EquipasCode.GDcastanha_9595txtObjects2.length = 0;
-gdjs.Geral_32EquipasCode.GDrosa_9595txtObjects1.length = 0;
-gdjs.Geral_32EquipasCode.GDrosa_9595txtObjects2.length = 0;
-gdjs.Geral_32EquipasCode.GDroxa_9595txtObjects1.length = 0;
-gdjs.Geral_32EquipasCode.GDroxa_9595txtObjects2.length = 0;
-gdjs.Geral_32EquipasCode.GDverde_9595txtObjects1.length = 0;
-gdjs.Geral_32EquipasCode.GDverde_9595txtObjects2.length = 0;
-gdjs.Geral_32EquipasCode.GDazulclara_9595txtObjects1.length = 0;
-gdjs.Geral_32EquipasCode.GDazulclara_9595txtObjects2.length = 0;
 gdjs.Geral_32EquipasCode.GDhomeObjects1.length = 0;
 gdjs.Geral_32EquipasCode.GDhomeObjects2.length = 0;
 gdjs.Geral_32EquipasCode.GDir_9595azulObjects1.length = 0;
@@ -673,6 +657,22 @@ gdjs.Geral_32EquipasCode.GDfundoObjects1.length = 0;
 gdjs.Geral_32EquipasCode.GDfundoObjects2.length = 0;
 gdjs.Geral_32EquipasCode.GDhome2Objects1.length = 0;
 gdjs.Geral_32EquipasCode.GDhome2Objects2.length = 0;
+gdjs.Geral_32EquipasCode.GDamarela_9595BBtxtObjects1.length = 0;
+gdjs.Geral_32EquipasCode.GDamarela_9595BBtxtObjects2.length = 0;
+gdjs.Geral_32EquipasCode.GDazul_9595BBtxtObjects1.length = 0;
+gdjs.Geral_32EquipasCode.GDazul_9595BBtxtObjects2.length = 0;
+gdjs.Geral_32EquipasCode.GDcastanha_9595BBtxtObjects1.length = 0;
+gdjs.Geral_32EquipasCode.GDcastanha_9595BBtxtObjects2.length = 0;
+gdjs.Geral_32EquipasCode.GDrosa_9595BBtxtObjects1.length = 0;
+gdjs.Geral_32EquipasCode.GDrosa_9595BBtxtObjects2.length = 0;
+gdjs.Geral_32EquipasCode.GDroxa_9595BBtxtObjects1.length = 0;
+gdjs.Geral_32EquipasCode.GDroxa_9595BBtxtObjects2.length = 0;
+gdjs.Geral_32EquipasCode.GDverde_9595BBtxtObjects1.length = 0;
+gdjs.Geral_32EquipasCode.GDverde_9595BBtxtObjects2.length = 0;
+gdjs.Geral_32EquipasCode.GDazulclara_9595BBtxtObjects1.length = 0;
+gdjs.Geral_32EquipasCode.GDazulclara_9595BBtxtObjects2.length = 0;
+gdjs.Geral_32EquipasCode.GDvermelha_9595BBtxtObjects1.length = 0;
+gdjs.Geral_32EquipasCode.GDvermelha_9595BBtxtObjects2.length = 0;
 
 gdjs.Geral_32EquipasCode.eventsList0(runtimeScene);
 gdjs.Geral_32EquipasCode.GDHack_9595StatusObjects1.length = 0;
@@ -681,22 +681,6 @@ gdjs.Geral_32EquipasCode.GDhackObjects1.length = 0;
 gdjs.Geral_32EquipasCode.GDhackObjects2.length = 0;
 gdjs.Geral_32EquipasCode.GDir_9595amarelaObjects1.length = 0;
 gdjs.Geral_32EquipasCode.GDir_9595amarelaObjects2.length = 0;
-gdjs.Geral_32EquipasCode.GDamarela_9595txtObjects1.length = 0;
-gdjs.Geral_32EquipasCode.GDamarela_9595txtObjects2.length = 0;
-gdjs.Geral_32EquipasCode.GDazul_9595txtObjects1.length = 0;
-gdjs.Geral_32EquipasCode.GDazul_9595txtObjects2.length = 0;
-gdjs.Geral_32EquipasCode.GDvermelha_9595txtObjects1.length = 0;
-gdjs.Geral_32EquipasCode.GDvermelha_9595txtObjects2.length = 0;
-gdjs.Geral_32EquipasCode.GDcastanha_9595txtObjects1.length = 0;
-gdjs.Geral_32EquipasCode.GDcastanha_9595txtObjects2.length = 0;
-gdjs.Geral_32EquipasCode.GDrosa_9595txtObjects1.length = 0;
-gdjs.Geral_32EquipasCode.GDrosa_9595txtObjects2.length = 0;
-gdjs.Geral_32EquipasCode.GDroxa_9595txtObjects1.length = 0;
-gdjs.Geral_32EquipasCode.GDroxa_9595txtObjects2.length = 0;
-gdjs.Geral_32EquipasCode.GDverde_9595txtObjects1.length = 0;
-gdjs.Geral_32EquipasCode.GDverde_9595txtObjects2.length = 0;
-gdjs.Geral_32EquipasCode.GDazulclara_9595txtObjects1.length = 0;
-gdjs.Geral_32EquipasCode.GDazulclara_9595txtObjects2.length = 0;
 gdjs.Geral_32EquipasCode.GDhomeObjects1.length = 0;
 gdjs.Geral_32EquipasCode.GDhomeObjects2.length = 0;
 gdjs.Geral_32EquipasCode.GDir_9595azulObjects1.length = 0;
@@ -717,6 +701,22 @@ gdjs.Geral_32EquipasCode.GDfundoObjects1.length = 0;
 gdjs.Geral_32EquipasCode.GDfundoObjects2.length = 0;
 gdjs.Geral_32EquipasCode.GDhome2Objects1.length = 0;
 gdjs.Geral_32EquipasCode.GDhome2Objects2.length = 0;
+gdjs.Geral_32EquipasCode.GDamarela_9595BBtxtObjects1.length = 0;
+gdjs.Geral_32EquipasCode.GDamarela_9595BBtxtObjects2.length = 0;
+gdjs.Geral_32EquipasCode.GDazul_9595BBtxtObjects1.length = 0;
+gdjs.Geral_32EquipasCode.GDazul_9595BBtxtObjects2.length = 0;
+gdjs.Geral_32EquipasCode.GDcastanha_9595BBtxtObjects1.length = 0;
+gdjs.Geral_32EquipasCode.GDcastanha_9595BBtxtObjects2.length = 0;
+gdjs.Geral_32EquipasCode.GDrosa_9595BBtxtObjects1.length = 0;
+gdjs.Geral_32EquipasCode.GDrosa_9595BBtxtObjects2.length = 0;
+gdjs.Geral_32EquipasCode.GDroxa_9595BBtxtObjects1.length = 0;
+gdjs.Geral_32EquipasCode.GDroxa_9595BBtxtObjects2.length = 0;
+gdjs.Geral_32EquipasCode.GDverde_9595BBtxtObjects1.length = 0;
+gdjs.Geral_32EquipasCode.GDverde_9595BBtxtObjects2.length = 0;
+gdjs.Geral_32EquipasCode.GDazulclara_9595BBtxtObjects1.length = 0;
+gdjs.Geral_32EquipasCode.GDazulclara_9595BBtxtObjects2.length = 0;
+gdjs.Geral_32EquipasCode.GDvermelha_9595BBtxtObjects1.length = 0;
+gdjs.Geral_32EquipasCode.GDvermelha_9595BBtxtObjects2.length = 0;
 
 
 return;
