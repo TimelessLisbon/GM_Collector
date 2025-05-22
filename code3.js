@@ -2,33 +2,59 @@ gdjs.Eq_46_32AzulCode = {};
 gdjs.Eq_46_32AzulCode.localVariables = [];
 gdjs.Eq_46_32AzulCode.GDRsp_9595CertaObjects1= [];
 gdjs.Eq_46_32AzulCode.GDRsp_9595CertaObjects2= [];
+gdjs.Eq_46_32AzulCode.GDRsp_9595CertaObjects3= [];
+gdjs.Eq_46_32AzulCode.GDRsp_9595CertaObjects4= [];
 gdjs.Eq_46_32AzulCode.GDTeam_9595NameObjects1= [];
 gdjs.Eq_46_32AzulCode.GDTeam_9595NameObjects2= [];
+gdjs.Eq_46_32AzulCode.GDTeam_9595NameObjects3= [];
+gdjs.Eq_46_32AzulCode.GDTeam_9595NameObjects4= [];
 gdjs.Eq_46_32AzulCode.GDPistaGMObjects1= [];
 gdjs.Eq_46_32AzulCode.GDPistaGMObjects2= [];
+gdjs.Eq_46_32AzulCode.GDPistaGMObjects3= [];
+gdjs.Eq_46_32AzulCode.GDPistaGMObjects4= [];
 gdjs.Eq_46_32AzulCode.GDenviarObjects1= [];
 gdjs.Eq_46_32AzulCode.GDenviarObjects2= [];
+gdjs.Eq_46_32AzulCode.GDenviarObjects3= [];
+gdjs.Eq_46_32AzulCode.GDenviarObjects4= [];
 gdjs.Eq_46_32AzulCode.GDnextObjects1= [];
 gdjs.Eq_46_32AzulCode.GDnextObjects2= [];
+gdjs.Eq_46_32AzulCode.GDnextObjects3= [];
+gdjs.Eq_46_32AzulCode.GDnextObjects4= [];
 gdjs.Eq_46_32AzulCode.GDmudar_9595lngObjects1= [];
 gdjs.Eq_46_32AzulCode.GDmudar_9595lngObjects2= [];
+gdjs.Eq_46_32AzulCode.GDmudar_9595lngObjects3= [];
+gdjs.Eq_46_32AzulCode.GDmudar_9595lngObjects4= [];
 gdjs.Eq_46_32AzulCode.GDlusiadasObjects1= [];
 gdjs.Eq_46_32AzulCode.GDlusiadasObjects2= [];
+gdjs.Eq_46_32AzulCode.GDlusiadasObjects3= [];
+gdjs.Eq_46_32AzulCode.GDlusiadasObjects4= [];
 gdjs.Eq_46_32AzulCode.GDlinguaObjects1= [];
 gdjs.Eq_46_32AzulCode.GDlinguaObjects2= [];
+gdjs.Eq_46_32AzulCode.GDlinguaObjects3= [];
+gdjs.Eq_46_32AzulCode.GDlinguaObjects4= [];
 gdjs.Eq_46_32AzulCode.GDEstado_9595Pista_9595txtObjects1= [];
 gdjs.Eq_46_32AzulCode.GDEstado_9595Pista_9595txtObjects2= [];
+gdjs.Eq_46_32AzulCode.GDEstado_9595Pista_9595txtObjects3= [];
+gdjs.Eq_46_32AzulCode.GDEstado_9595Pista_9595txtObjects4= [];
 gdjs.Eq_46_32AzulCode.GDBackObjects1= [];
 gdjs.Eq_46_32AzulCode.GDBackObjects2= [];
+gdjs.Eq_46_32AzulCode.GDBackObjects3= [];
+gdjs.Eq_46_32AzulCode.GDBackObjects4= [];
 gdjs.Eq_46_32AzulCode.GDfundoObjects1= [];
 gdjs.Eq_46_32AzulCode.GDfundoObjects2= [];
+gdjs.Eq_46_32AzulCode.GDfundoObjects3= [];
+gdjs.Eq_46_32AzulCode.GDfundoObjects4= [];
 gdjs.Eq_46_32AzulCode.GDgeral_9595equipasObjects1= [];
 gdjs.Eq_46_32AzulCode.GDgeral_9595equipasObjects2= [];
+gdjs.Eq_46_32AzulCode.GDgeral_9595equipasObjects3= [];
+gdjs.Eq_46_32AzulCode.GDgeral_9595equipasObjects4= [];
 gdjs.Eq_46_32AzulCode.GDResumoBBObjects1= [];
 gdjs.Eq_46_32AzulCode.GDResumoBBObjects2= [];
+gdjs.Eq_46_32AzulCode.GDResumoBBObjects3= [];
+gdjs.Eq_46_32AzulCode.GDResumoBBObjects4= [];
 
 
-gdjs.Eq_46_32AzulCode.asyncCallback19957452 = function (runtimeScene, asyncObjectsList) {
+gdjs.Eq_46_32AzulCode.asyncCallback11151604 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Eq_46_32AzulCode.localVariables);
 {gdjs.evtTools.firebaseTools.database.updateField(runtimeScene.getGame().getVariables().getFromIndex(1).getAsString(), "Next", "", runtimeScene.getScene().getVariables().getFromIndex(7));
 }gdjs.Eq_46_32AzulCode.localVariables.length = 0;
@@ -42,14 +68,91 @@ gdjs.Eq_46_32AzulCode.eventsList0 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.Eq_46_32AzulCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.2), (runtimeScene) => (gdjs.Eq_46_32AzulCode.asyncCallback19957452(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.2), (runtimeScene) => (gdjs.Eq_46_32AzulCode.asyncCallback11151604(runtimeScene, asyncObjectsList)));
 }
 }
 
 }
 
 
-};gdjs.Eq_46_32AzulCode.eventsList1 = function(runtimeScene) {
+};gdjs.Eq_46_32AzulCode.eventsList1 = function(runtimeScene, asyncObjectsList) {
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+{isConditionTrue_0 = (runtimeScene.getScene().getVariables().getFromIndex(8).getAsString() == "encontrado");
+}
+if (isConditionTrue_0) {
+gdjs.copyArray(runtimeScene.getObjects("lusiadas"), gdjs.Eq_46_32AzulCode.GDlusiadasObjects3);
+{for(var i = 0, len = gdjs.Eq_46_32AzulCode.GDlusiadasObjects3.length ;i < len;++i) {
+    gdjs.Eq_46_32AzulCode.GDlusiadasObjects3[i].SetChecked(true, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}
+}}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+{isConditionTrue_0 = (runtimeScene.getScene().getVariables().getFromIndex(8).getAsString() == "");
+}
+if (isConditionTrue_0) {
+gdjs.copyArray(runtimeScene.getObjects("lusiadas"), gdjs.Eq_46_32AzulCode.GDlusiadasObjects2);
+{for(var i = 0, len = gdjs.Eq_46_32AzulCode.GDlusiadasObjects2.length ;i < len;++i) {
+    gdjs.Eq_46_32AzulCode.GDlusiadasObjects2[i].SetChecked(false, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}
+}}
+
+}
+
+
+};gdjs.Eq_46_32AzulCode.eventsList2 = function(runtimeScene, asyncObjectsList) {
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17443324);
+}
+if (isConditionTrue_0) {
+
+{ //Subevents
+gdjs.Eq_46_32AzulCode.eventsList1(runtimeScene, asyncObjectsList);} //End of subevents
+}
+
+}
+
+
+};gdjs.Eq_46_32AzulCode.asyncCallback18462108 = function (runtimeScene, asyncObjectsList) {
+asyncObjectsList.restoreLocalVariablesContainers(gdjs.Eq_46_32AzulCode.localVariables);
+
+{ //Subevents
+gdjs.Eq_46_32AzulCode.eventsList2(runtimeScene, asyncObjectsList);} //End of subevents
+gdjs.Eq_46_32AzulCode.localVariables.length = 0;
+}
+gdjs.Eq_46_32AzulCode.eventsList3 = function(runtimeScene) {
+
+{
+
+
+{
+{
+const asyncObjectsList = new gdjs.LongLivedObjectsList();
+asyncObjectsList.backupLocalVariablesContainers(gdjs.Eq_46_32AzulCode.localVariables);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.Eq_46_32AzulCode.asyncCallback18462108(runtimeScene, asyncObjectsList)));
+}
+}
+
+}
+
+
+};gdjs.Eq_46_32AzulCode.eventsList4 = function(runtimeScene) {
 
 {
 
@@ -359,7 +462,7 @@ gdjs.copyArray(runtimeScene.getObjects("Team_Name"), gdjs.Eq_46_32AzulCode.GDTea
     gdjs.Eq_46_32AzulCode.GDEstado_9595Pista_9595txtObjects1[i].getBehavior("Text").setText(runtimeScene.getScene().getVariables().getFromIndex(5).getAsString());
 }
 }{for(var i = 0, len = gdjs.Eq_46_32AzulCode.GDResumoBBObjects1.length ;i < len;++i) {
-    gdjs.Eq_46_32AzulCode.GDResumoBBObjects1[i].setBBText("[outline=white][b][color=#00008B][size=43]Local:[/size][/color][/b][/outline] " + runtimeScene.getScene().getVariables().getFromIndex(0).getAsString() + gdjs.evtTools.string.newLine() + "[outline=white][b][color=#00008B][size=43]Rsp:[/size][/color][/b][/outline] " + runtimeScene.getScene().getVariables().getFromIndex(2).getAsString() + gdjs.evtTools.string.newLine() + "[outline=white][b][color=#00008B][size=43]Erros:[/size][/color][/b][/outline] " + runtimeScene.getScene().getVariables().getFromIndex(3).getAsString());
+    gdjs.Eq_46_32AzulCode.GDResumoBBObjects1[i].setBBText("[outline=white][b][color=#00008B][size=38]Local:[/size][/color][/b][/outline] " + runtimeScene.getScene().getVariables().getFromIndex(0).getAsString() + gdjs.evtTools.string.newLine() + "[outline=white][b][color=#00008B][size=38]Rsp:[/size][/color][/b][/outline] " + runtimeScene.getScene().getVariables().getFromIndex(2).getAsString() + gdjs.evtTools.string.newLine() + "[outline=white][b][color=#00008B][size=38]Erros:[/size][/color][/b][/outline] " + runtimeScene.getScene().getVariables().getFromIndex(3).getAsString());
 }
 }}
 
@@ -514,6 +617,20 @@ gdjs.Eq_46_32AzulCode.eventsList0(runtimeScene);} //End of subevents
 
 {
 
+
+let isConditionTrue_0 = false;
+{
+{gdjs.evtTools.firebaseTools.database.getField(runtimeScene.getGame().getVariables().getFromIndex(1).getAsString(), "Lusiadas", runtimeScene.getScene().getVariables().getFromIndex(8), runtimeScene.getScene().getVariables().getFromIndex(7));
+}
+{ //Subevents
+gdjs.Eq_46_32AzulCode.eventsList3(runtimeScene);} //End of subevents
+}
+
+}
+
+
+{
+
 gdjs.copyArray(runtimeScene.getObjects("lusiadas"), gdjs.Eq_46_32AzulCode.GDlusiadasObjects1);
 
 let isConditionTrue_0 = false;
@@ -622,58 +739,110 @@ runtimeScene.getOnceTriggers().startNewFrame();
 
 gdjs.Eq_46_32AzulCode.GDRsp_9595CertaObjects1.length = 0;
 gdjs.Eq_46_32AzulCode.GDRsp_9595CertaObjects2.length = 0;
+gdjs.Eq_46_32AzulCode.GDRsp_9595CertaObjects3.length = 0;
+gdjs.Eq_46_32AzulCode.GDRsp_9595CertaObjects4.length = 0;
 gdjs.Eq_46_32AzulCode.GDTeam_9595NameObjects1.length = 0;
 gdjs.Eq_46_32AzulCode.GDTeam_9595NameObjects2.length = 0;
+gdjs.Eq_46_32AzulCode.GDTeam_9595NameObjects3.length = 0;
+gdjs.Eq_46_32AzulCode.GDTeam_9595NameObjects4.length = 0;
 gdjs.Eq_46_32AzulCode.GDPistaGMObjects1.length = 0;
 gdjs.Eq_46_32AzulCode.GDPistaGMObjects2.length = 0;
+gdjs.Eq_46_32AzulCode.GDPistaGMObjects3.length = 0;
+gdjs.Eq_46_32AzulCode.GDPistaGMObjects4.length = 0;
 gdjs.Eq_46_32AzulCode.GDenviarObjects1.length = 0;
 gdjs.Eq_46_32AzulCode.GDenviarObjects2.length = 0;
+gdjs.Eq_46_32AzulCode.GDenviarObjects3.length = 0;
+gdjs.Eq_46_32AzulCode.GDenviarObjects4.length = 0;
 gdjs.Eq_46_32AzulCode.GDnextObjects1.length = 0;
 gdjs.Eq_46_32AzulCode.GDnextObjects2.length = 0;
+gdjs.Eq_46_32AzulCode.GDnextObjects3.length = 0;
+gdjs.Eq_46_32AzulCode.GDnextObjects4.length = 0;
 gdjs.Eq_46_32AzulCode.GDmudar_9595lngObjects1.length = 0;
 gdjs.Eq_46_32AzulCode.GDmudar_9595lngObjects2.length = 0;
+gdjs.Eq_46_32AzulCode.GDmudar_9595lngObjects3.length = 0;
+gdjs.Eq_46_32AzulCode.GDmudar_9595lngObjects4.length = 0;
 gdjs.Eq_46_32AzulCode.GDlusiadasObjects1.length = 0;
 gdjs.Eq_46_32AzulCode.GDlusiadasObjects2.length = 0;
+gdjs.Eq_46_32AzulCode.GDlusiadasObjects3.length = 0;
+gdjs.Eq_46_32AzulCode.GDlusiadasObjects4.length = 0;
 gdjs.Eq_46_32AzulCode.GDlinguaObjects1.length = 0;
 gdjs.Eq_46_32AzulCode.GDlinguaObjects2.length = 0;
+gdjs.Eq_46_32AzulCode.GDlinguaObjects3.length = 0;
+gdjs.Eq_46_32AzulCode.GDlinguaObjects4.length = 0;
 gdjs.Eq_46_32AzulCode.GDEstado_9595Pista_9595txtObjects1.length = 0;
 gdjs.Eq_46_32AzulCode.GDEstado_9595Pista_9595txtObjects2.length = 0;
+gdjs.Eq_46_32AzulCode.GDEstado_9595Pista_9595txtObjects3.length = 0;
+gdjs.Eq_46_32AzulCode.GDEstado_9595Pista_9595txtObjects4.length = 0;
 gdjs.Eq_46_32AzulCode.GDBackObjects1.length = 0;
 gdjs.Eq_46_32AzulCode.GDBackObjects2.length = 0;
+gdjs.Eq_46_32AzulCode.GDBackObjects3.length = 0;
+gdjs.Eq_46_32AzulCode.GDBackObjects4.length = 0;
 gdjs.Eq_46_32AzulCode.GDfundoObjects1.length = 0;
 gdjs.Eq_46_32AzulCode.GDfundoObjects2.length = 0;
+gdjs.Eq_46_32AzulCode.GDfundoObjects3.length = 0;
+gdjs.Eq_46_32AzulCode.GDfundoObjects4.length = 0;
 gdjs.Eq_46_32AzulCode.GDgeral_9595equipasObjects1.length = 0;
 gdjs.Eq_46_32AzulCode.GDgeral_9595equipasObjects2.length = 0;
+gdjs.Eq_46_32AzulCode.GDgeral_9595equipasObjects3.length = 0;
+gdjs.Eq_46_32AzulCode.GDgeral_9595equipasObjects4.length = 0;
 gdjs.Eq_46_32AzulCode.GDResumoBBObjects1.length = 0;
 gdjs.Eq_46_32AzulCode.GDResumoBBObjects2.length = 0;
+gdjs.Eq_46_32AzulCode.GDResumoBBObjects3.length = 0;
+gdjs.Eq_46_32AzulCode.GDResumoBBObjects4.length = 0;
 
-gdjs.Eq_46_32AzulCode.eventsList1(runtimeScene);
+gdjs.Eq_46_32AzulCode.eventsList4(runtimeScene);
 gdjs.Eq_46_32AzulCode.GDRsp_9595CertaObjects1.length = 0;
 gdjs.Eq_46_32AzulCode.GDRsp_9595CertaObjects2.length = 0;
+gdjs.Eq_46_32AzulCode.GDRsp_9595CertaObjects3.length = 0;
+gdjs.Eq_46_32AzulCode.GDRsp_9595CertaObjects4.length = 0;
 gdjs.Eq_46_32AzulCode.GDTeam_9595NameObjects1.length = 0;
 gdjs.Eq_46_32AzulCode.GDTeam_9595NameObjects2.length = 0;
+gdjs.Eq_46_32AzulCode.GDTeam_9595NameObjects3.length = 0;
+gdjs.Eq_46_32AzulCode.GDTeam_9595NameObjects4.length = 0;
 gdjs.Eq_46_32AzulCode.GDPistaGMObjects1.length = 0;
 gdjs.Eq_46_32AzulCode.GDPistaGMObjects2.length = 0;
+gdjs.Eq_46_32AzulCode.GDPistaGMObjects3.length = 0;
+gdjs.Eq_46_32AzulCode.GDPistaGMObjects4.length = 0;
 gdjs.Eq_46_32AzulCode.GDenviarObjects1.length = 0;
 gdjs.Eq_46_32AzulCode.GDenviarObjects2.length = 0;
+gdjs.Eq_46_32AzulCode.GDenviarObjects3.length = 0;
+gdjs.Eq_46_32AzulCode.GDenviarObjects4.length = 0;
 gdjs.Eq_46_32AzulCode.GDnextObjects1.length = 0;
 gdjs.Eq_46_32AzulCode.GDnextObjects2.length = 0;
+gdjs.Eq_46_32AzulCode.GDnextObjects3.length = 0;
+gdjs.Eq_46_32AzulCode.GDnextObjects4.length = 0;
 gdjs.Eq_46_32AzulCode.GDmudar_9595lngObjects1.length = 0;
 gdjs.Eq_46_32AzulCode.GDmudar_9595lngObjects2.length = 0;
+gdjs.Eq_46_32AzulCode.GDmudar_9595lngObjects3.length = 0;
+gdjs.Eq_46_32AzulCode.GDmudar_9595lngObjects4.length = 0;
 gdjs.Eq_46_32AzulCode.GDlusiadasObjects1.length = 0;
 gdjs.Eq_46_32AzulCode.GDlusiadasObjects2.length = 0;
+gdjs.Eq_46_32AzulCode.GDlusiadasObjects3.length = 0;
+gdjs.Eq_46_32AzulCode.GDlusiadasObjects4.length = 0;
 gdjs.Eq_46_32AzulCode.GDlinguaObjects1.length = 0;
 gdjs.Eq_46_32AzulCode.GDlinguaObjects2.length = 0;
+gdjs.Eq_46_32AzulCode.GDlinguaObjects3.length = 0;
+gdjs.Eq_46_32AzulCode.GDlinguaObjects4.length = 0;
 gdjs.Eq_46_32AzulCode.GDEstado_9595Pista_9595txtObjects1.length = 0;
 gdjs.Eq_46_32AzulCode.GDEstado_9595Pista_9595txtObjects2.length = 0;
+gdjs.Eq_46_32AzulCode.GDEstado_9595Pista_9595txtObjects3.length = 0;
+gdjs.Eq_46_32AzulCode.GDEstado_9595Pista_9595txtObjects4.length = 0;
 gdjs.Eq_46_32AzulCode.GDBackObjects1.length = 0;
 gdjs.Eq_46_32AzulCode.GDBackObjects2.length = 0;
+gdjs.Eq_46_32AzulCode.GDBackObjects3.length = 0;
+gdjs.Eq_46_32AzulCode.GDBackObjects4.length = 0;
 gdjs.Eq_46_32AzulCode.GDfundoObjects1.length = 0;
 gdjs.Eq_46_32AzulCode.GDfundoObjects2.length = 0;
+gdjs.Eq_46_32AzulCode.GDfundoObjects3.length = 0;
+gdjs.Eq_46_32AzulCode.GDfundoObjects4.length = 0;
 gdjs.Eq_46_32AzulCode.GDgeral_9595equipasObjects1.length = 0;
 gdjs.Eq_46_32AzulCode.GDgeral_9595equipasObjects2.length = 0;
+gdjs.Eq_46_32AzulCode.GDgeral_9595equipasObjects3.length = 0;
+gdjs.Eq_46_32AzulCode.GDgeral_9595equipasObjects4.length = 0;
 gdjs.Eq_46_32AzulCode.GDResumoBBObjects1.length = 0;
 gdjs.Eq_46_32AzulCode.GDResumoBBObjects2.length = 0;
+gdjs.Eq_46_32AzulCode.GDResumoBBObjects3.length = 0;
+gdjs.Eq_46_32AzulCode.GDResumoBBObjects4.length = 0;
 
 
 return;
