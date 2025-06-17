@@ -54,7 +54,7 @@ gdjs.Eq_46_32VerdeClaraCode.GDResumoBBObjects3= [];
 gdjs.Eq_46_32VerdeClaraCode.GDResumoBBObjects4= [];
 
 
-gdjs.Eq_46_32VerdeClaraCode.asyncCallback14716484 = function (runtimeScene, asyncObjectsList) {
+gdjs.Eq_46_32VerdeClaraCode.asyncCallback15596348 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Eq_46_32VerdeClaraCode.localVariables);
 {gdjs.evtTools.firebaseTools.database.updateField(runtimeScene.getGame().getVariables().getFromIndex(3).getAsString(), "Next", "", runtimeScene.getScene().getVariables().getFromIndex(7));
 }gdjs.Eq_46_32VerdeClaraCode.localVariables.length = 0;
@@ -68,7 +68,7 @@ gdjs.Eq_46_32VerdeClaraCode.eventsList0 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.Eq_46_32VerdeClaraCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.2), (runtimeScene) => (gdjs.Eq_46_32VerdeClaraCode.asyncCallback14716484(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.2), (runtimeScene) => (gdjs.Eq_46_32VerdeClaraCode.asyncCallback15596348(runtimeScene, asyncObjectsList)));
 }
 }
 
@@ -118,7 +118,7 @@ gdjs.copyArray(runtimeScene.getObjects("lusiadas"), gdjs.Eq_46_32VerdeClaraCode.
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(14718028);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(15612236);
 }
 if (isConditionTrue_0) {
 
@@ -129,7 +129,7 @@ gdjs.Eq_46_32VerdeClaraCode.eventsList1(runtimeScene, asyncObjectsList);} //End 
 }
 
 
-};gdjs.Eq_46_32VerdeClaraCode.asyncCallback14717620 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Eq_46_32VerdeClaraCode.asyncCallback15601556 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Eq_46_32VerdeClaraCode.localVariables);
 
 { //Subevents
@@ -145,7 +145,7 @@ gdjs.Eq_46_32VerdeClaraCode.eventsList3 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.Eq_46_32VerdeClaraCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.Eq_46_32VerdeClaraCode.asyncCallback14717620(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.Eq_46_32VerdeClaraCode.asyncCallback15601556(runtimeScene, asyncObjectsList)));
 }
 }
 

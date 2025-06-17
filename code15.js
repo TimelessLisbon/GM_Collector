@@ -54,7 +54,7 @@ gdjs.Eq_46_32VerdeClara_95PretaCode.GDResumoBBObjects3= [];
 gdjs.Eq_46_32VerdeClara_95PretaCode.GDResumoBBObjects4= [];
 
 
-gdjs.Eq_46_32VerdeClara_95PretaCode.asyncCallback19094452 = function (runtimeScene, asyncObjectsList) {
+gdjs.Eq_46_32VerdeClara_95PretaCode.asyncCallback17049156 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Eq_46_32VerdeClara_95PretaCode.localVariables);
 {gdjs.evtTools.firebaseTools.database.updateField(runtimeScene.getGame().getVariables().getFromIndex(12).getAsString(), "Next", "", runtimeScene.getScene().getVariables().getFromIndex(7));
 }gdjs.Eq_46_32VerdeClara_95PretaCode.localVariables.length = 0;
@@ -68,7 +68,7 @@ gdjs.Eq_46_32VerdeClara_95PretaCode.eventsList0 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.Eq_46_32VerdeClara_95PretaCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.2), (runtimeScene) => (gdjs.Eq_46_32VerdeClara_95PretaCode.asyncCallback19094452(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.2), (runtimeScene) => (gdjs.Eq_46_32VerdeClara_95PretaCode.asyncCallback17049156(runtimeScene, asyncObjectsList)));
 }
 }
 
@@ -118,7 +118,7 @@ gdjs.copyArray(runtimeScene.getObjects("lusiadas"), gdjs.Eq_46_32VerdeClara_95Pr
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(23390308);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17052636);
 }
 if (isConditionTrue_0) {
 
@@ -129,7 +129,7 @@ gdjs.Eq_46_32VerdeClara_95PretaCode.eventsList1(runtimeScene, asyncObjectsList);
 }
 
 
-};gdjs.Eq_46_32VerdeClara_95PretaCode.asyncCallback23389876 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Eq_46_32VerdeClara_95PretaCode.asyncCallback17048684 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Eq_46_32VerdeClara_95PretaCode.localVariables);
 
 { //Subevents
@@ -145,7 +145,7 @@ gdjs.Eq_46_32VerdeClara_95PretaCode.eventsList3 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.Eq_46_32VerdeClara_95PretaCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.Eq_46_32VerdeClara_95PretaCode.asyncCallback23389876(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.Eq_46_32VerdeClara_95PretaCode.asyncCallback17048684(runtimeScene, asyncObjectsList)));
 }
 }
 

@@ -215,7 +215,7 @@ gdjs.copyArray(runtimeScene.getObjects("Leaderboard"), gdjs.GMCode.GDLeaderboard
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(11242700);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(18489364);
 }
 if (isConditionTrue_0) {
 
@@ -226,7 +226,7 @@ gdjs.GMCode.eventsList0(runtimeScene, asyncObjectsList);} //End of subevents
 }
 
 
-};gdjs.GMCode.asyncCallback22081492 = function (runtimeScene, asyncObjectsList) {
+};gdjs.GMCode.asyncCallback21288836 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.GMCode.localVariables);
 
 { //Subevents
@@ -242,14 +242,14 @@ gdjs.GMCode.eventsList2 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.GMCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.GMCode.asyncCallback22081492(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.GMCode.asyncCallback21288836(runtimeScene, asyncObjectsList)));
 }
 }
 
 }
 
 
-};gdjs.GMCode.asyncCallback15801636 = function (runtimeScene, asyncObjectsList) {
+};gdjs.GMCode.asyncCallback18502476 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.GMCode.localVariables);
 gdjs.copyArray(asyncObjectsList.getObjects("Hora_INPT"), gdjs.GMCode.GDHora_9595INPTObjects2);
 
@@ -274,7 +274,7 @@ const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.GMCode.localVariables);
 for (const obj of gdjs.GMCode.GDHora_9595INPTObjects1) asyncObjectsList.addObject("Hora_INPT", obj);
 for (const obj of gdjs.GMCode.GDMin_9595INPTObjects1) asyncObjectsList.addObject("Min_INPT", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.GMCode.asyncCallback15801636(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.GMCode.asyncCallback18502476(runtimeScene, asyncObjectsList)));
 }
 }
 
@@ -288,7 +288,7 @@ runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5)
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(15806220);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(18507628);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.firebaseTools.database.updateField("Voucher", "Status", "ambos", runtimeScene.getScene().getVariables().getFromIndex(1));
@@ -304,7 +304,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(15807524);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(18508956);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.firebaseTools.database.updateField("Voucher", "Status", "bacalhau", runtimeScene.getScene().getVariables().getFromIndex(1));
@@ -320,7 +320,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(15808892);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(18510276);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.firebaseTools.database.updateField("Voucher", "Status", "manteigaria", runtimeScene.getScene().getVariables().getFromIndex(1));
@@ -336,7 +336,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(15810332);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(18511716);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.firebaseTools.database.updateField("Voucher", "Status", "not selected", runtimeScene.getScene().getVariables().getFromIndex(1));
@@ -608,7 +608,7 @@ gdjs.copyArray(runtimeScene.getObjects("Revelacoes"), gdjs.GMCode.GDRevelacoesOb
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(15813180);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(18514540);
 }
 if (isConditionTrue_0) {
 
@@ -619,7 +619,7 @@ gdjs.GMCode.eventsList9(runtimeScene, asyncObjectsList);} //End of subevents
 }
 
 
-};gdjs.GMCode.asyncCallback15812764 = function (runtimeScene, asyncObjectsList) {
+};gdjs.GMCode.asyncCallback18514124 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.GMCode.localVariables);
 
 { //Subevents
@@ -635,7 +635,7 @@ gdjs.GMCode.eventsList11 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.GMCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.GMCode.asyncCallback15812764(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.GMCode.asyncCallback18514124(runtimeScene, asyncObjectsList)));
 }
 }
 
@@ -719,7 +719,7 @@ gdjs.copyArray(runtimeScene.getObjects("Leaderboard"), gdjs.GMCode.GDLeaderboard
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(15425868);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(15757252);
 }
 if (isConditionTrue_0) {
 
@@ -730,7 +730,7 @@ gdjs.GMCode.eventsList12(runtimeScene, asyncObjectsList);} //End of subevents
 }
 
 
-};gdjs.GMCode.asyncCallback15425436 = function (runtimeScene, asyncObjectsList) {
+};gdjs.GMCode.asyncCallback18497388 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.GMCode.localVariables);
 
 { //Subevents
@@ -746,7 +746,7 @@ gdjs.GMCode.eventsList14 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.GMCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.GMCode.asyncCallback15425436(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.GMCode.asyncCallback18497388(runtimeScene, asyncObjectsList)));
 }
 }
 
@@ -760,7 +760,7 @@ runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5)
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(15434148);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(15767116);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.firebaseTools.database.updateField("Leaderboard", "ID", "4a6bed99-f0a7-4a39-a974-6a4e0dceeae5", runtimeScene.getScene().getVariables().getFromIndex(1));
@@ -776,7 +776,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(15436108);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(15769076);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.firebaseTools.database.updateField("Leaderboard", "ID", "6d805aca-cbda-49ef-8d4f-f0d2c2810cb4", runtimeScene.getScene().getVariables().getFromIndex(1));
@@ -792,7 +792,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(15438164);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(15771060);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.firebaseTools.database.updateField("Leaderboard", "ID", "96a8a0f3-2645-43db-a83a-c6c91191689b", runtimeScene.getScene().getVariables().getFromIndex(1));
@@ -808,7 +808,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(15440220);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(15773036);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.firebaseTools.database.updateField("Leaderboard", "ID", "", runtimeScene.getScene().getVariables().getFromIndex(1));
@@ -1343,13 +1343,21 @@ if (isConditionTrue_0) {
 }{gdjs.evtTools.firebaseTools.database.updateField("Timer", "Minute", "", runtimeScene.getScene().getVariables().getFromIndex(1));
 }{gdjs.evtTools.firebaseTools.database.updateField("Leaderboard", "ID", "", runtimeScene.getScene().getVariables().getFromIndex(1));
 }{gdjs.evtTools.firebaseTools.database.updateField("UID", "Amarela", "", runtimeScene.getScene().getVariables().getFromIndex(1));
+}{gdjs.evtTools.firebaseTools.database.updateField("UID", "Amarela_Preta", "", runtimeScene.getScene().getVariables().getFromIndex(1));
 }{gdjs.evtTools.firebaseTools.database.updateField("UID", "Azul", "", runtimeScene.getScene().getVariables().getFromIndex(1));
+}{gdjs.evtTools.firebaseTools.database.updateField("UID", "Azul_Preta", "", runtimeScene.getScene().getVariables().getFromIndex(1));
 }{gdjs.evtTools.firebaseTools.database.updateField("UID", "Castanha", "", runtimeScene.getScene().getVariables().getFromIndex(1));
+}{gdjs.evtTools.firebaseTools.database.updateField("UID", "Branca_Preta", "", runtimeScene.getScene().getVariables().getFromIndex(1));
 }{gdjs.evtTools.firebaseTools.database.updateField("UID", "Rosa", "", runtimeScene.getScene().getVariables().getFromIndex(1));
 }{gdjs.evtTools.firebaseTools.database.updateField("UID", "Roxa", "", runtimeScene.getScene().getVariables().getFromIndex(1));
+}{gdjs.evtTools.firebaseTools.database.updateField("UID", "Roxa_Preta", "", runtimeScene.getScene().getVariables().getFromIndex(1));
 }{gdjs.evtTools.firebaseTools.database.updateField("UID", "Verde", "", runtimeScene.getScene().getVariables().getFromIndex(1));
+}{gdjs.evtTools.firebaseTools.database.updateField("UID", "Verde_Preta", "", runtimeScene.getScene().getVariables().getFromIndex(1));
+}{gdjs.evtTools.firebaseTools.database.updateField("UID", "VerdeClara_Preta", "", runtimeScene.getScene().getVariables().getFromIndex(1));
 }{gdjs.evtTools.firebaseTools.database.updateField("UID", "AzulClara", "", runtimeScene.getScene().getVariables().getFromIndex(1));
+}{gdjs.evtTools.firebaseTools.database.updateField("UID", "AzulClara_Preta", "", runtimeScene.getScene().getVariables().getFromIndex(1));
 }{gdjs.evtTools.firebaseTools.database.updateField("UID", "Vermelha", "", runtimeScene.getScene().getVariables().getFromIndex(1));
+}{gdjs.evtTools.firebaseTools.database.updateField("UID", "Vermelha_Preta", "", runtimeScene.getScene().getVariables().getFromIndex(1));
 }{gdjs.evtTools.firebaseTools.database.updateField("Leaderboard", "ID", "", runtimeScene.getScene().getVariables().getFromIndex(1));
 }{gdjs.evtTools.firebaseTools.database.deleteVariable(runtimeScene.getGame().getVariables().getFromIndex(0).getAsString(), runtimeScene.getScene().getVariables().getFromIndex(1));
 }{gdjs.evtTools.firebaseTools.database.deleteVariable(runtimeScene.getGame().getVariables().getFromIndex(1).getAsString(), runtimeScene.getScene().getVariables().getFromIndex(1));
@@ -1359,6 +1367,14 @@ if (isConditionTrue_0) {
 }{gdjs.evtTools.firebaseTools.database.deleteVariable(runtimeScene.getGame().getVariables().getFromIndex(5).getAsString(), runtimeScene.getScene().getVariables().getFromIndex(1));
 }{gdjs.evtTools.firebaseTools.database.deleteVariable(runtimeScene.getGame().getVariables().getFromIndex(6).getAsString(), runtimeScene.getScene().getVariables().getFromIndex(1));
 }{gdjs.evtTools.firebaseTools.database.deleteVariable(runtimeScene.getGame().getVariables().getFromIndex(7).getAsString(), runtimeScene.getScene().getVariables().getFromIndex(1));
+}{gdjs.evtTools.firebaseTools.database.deleteVariable(runtimeScene.getGame().getVariables().getFromIndex(15).getAsString(), runtimeScene.getScene().getVariables().getFromIndex(1));
+}{gdjs.evtTools.firebaseTools.database.deleteVariable(runtimeScene.getGame().getVariables().getFromIndex(8).getAsString(), runtimeScene.getScene().getVariables().getFromIndex(1));
+}{gdjs.evtTools.firebaseTools.database.deleteVariable(runtimeScene.getGame().getVariables().getFromIndex(9).getAsString(), runtimeScene.getScene().getVariables().getFromIndex(1));
+}{gdjs.evtTools.firebaseTools.database.deleteVariable(runtimeScene.getGame().getVariables().getFromIndex(11).getAsString(), runtimeScene.getScene().getVariables().getFromIndex(1));
+}{gdjs.evtTools.firebaseTools.database.deleteVariable(runtimeScene.getGame().getVariables().getFromIndex(12).getAsString(), runtimeScene.getScene().getVariables().getFromIndex(1));
+}{gdjs.evtTools.firebaseTools.database.deleteVariable(runtimeScene.getGame().getVariables().getFromIndex(13).getAsString(), runtimeScene.getScene().getVariables().getFromIndex(1));
+}{gdjs.evtTools.firebaseTools.database.deleteVariable(runtimeScene.getGame().getVariables().getFromIndex(14).getAsString(), runtimeScene.getScene().getVariables().getFromIndex(1));
+}{gdjs.evtTools.firebaseTools.database.deleteVariable(runtimeScene.getGame().getVariables().getFromIndex(10).getAsString(), runtimeScene.getScene().getVariables().getFromIndex(1));
 }}
 
 }

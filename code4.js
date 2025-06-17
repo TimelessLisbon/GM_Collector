@@ -54,7 +54,7 @@ gdjs.Eq_46_32AzulCode.GDResumoBBObjects3= [];
 gdjs.Eq_46_32AzulCode.GDResumoBBObjects4= [];
 
 
-gdjs.Eq_46_32AzulCode.asyncCallback11742428 = function (runtimeScene, asyncObjectsList) {
+gdjs.Eq_46_32AzulCode.asyncCallback15174276 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Eq_46_32AzulCode.localVariables);
 {gdjs.evtTools.firebaseTools.database.updateField(runtimeScene.getGame().getVariables().getFromIndex(1).getAsString(), "Next", "", runtimeScene.getScene().getVariables().getFromIndex(7));
 }gdjs.Eq_46_32AzulCode.localVariables.length = 0;
@@ -68,7 +68,7 @@ gdjs.Eq_46_32AzulCode.eventsList0 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.Eq_46_32AzulCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.2), (runtimeScene) => (gdjs.Eq_46_32AzulCode.asyncCallback11742428(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.2), (runtimeScene) => (gdjs.Eq_46_32AzulCode.asyncCallback15174276(runtimeScene, asyncObjectsList)));
 }
 }
 
@@ -118,7 +118,7 @@ gdjs.copyArray(runtimeScene.getObjects("lusiadas"), gdjs.Eq_46_32AzulCode.GDlusi
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(11742924);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(15161940);
 }
 if (isConditionTrue_0) {
 
@@ -129,7 +129,7 @@ gdjs.Eq_46_32AzulCode.eventsList1(runtimeScene, asyncObjectsList);} //End of sub
 }
 
 
-};gdjs.Eq_46_32AzulCode.asyncCallback11744812 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Eq_46_32AzulCode.asyncCallback15165716 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Eq_46_32AzulCode.localVariables);
 
 { //Subevents
@@ -145,7 +145,7 @@ gdjs.Eq_46_32AzulCode.eventsList3 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.Eq_46_32AzulCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.Eq_46_32AzulCode.asyncCallback11744812(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.Eq_46_32AzulCode.asyncCallback15165716(runtimeScene, asyncObjectsList)));
 }
 }
 
