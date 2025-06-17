@@ -44,7 +44,7 @@ gdjs.Geral_32Equipas2Code.GDvermelha_9595BBtxtObjects1= [];
 gdjs.Geral_32Equipas2Code.GDvermelha_9595BBtxtObjects2= [];
 
 
-gdjs.Geral_32Equipas2Code.asyncCallback17147660 = function (runtimeScene, asyncObjectsList) {
+gdjs.Geral_32Equipas2Code.asyncCallback22768252 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Geral_32Equipas2Code.localVariables);
 {gdjs.evtTools.firebaseTools.database.getField("Hack", "Status", runtimeScene.getScene().getVariables().getFromIndex(41), runtimeScene.getScene().getVariables().getFromIndex(0));
 }gdjs.Geral_32Equipas2Code.localVariables.length = 0;
@@ -58,7 +58,7 @@ gdjs.Geral_32Equipas2Code.eventsList0 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.Geral_32Equipas2Code.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.Geral_32Equipas2Code.asyncCallback17147660(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.Geral_32Equipas2Code.asyncCallback22768252(runtimeScene, asyncObjectsList)));
 }
 }
 

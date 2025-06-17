@@ -54,7 +54,7 @@ gdjs.Eq_46_32LaranjaCode.GDResumoBBObjects3= [];
 gdjs.Eq_46_32LaranjaCode.GDResumoBBObjects4= [];
 
 
-gdjs.Eq_46_32LaranjaCode.asyncCallback10489140 = function (runtimeScene, asyncObjectsList) {
+gdjs.Eq_46_32LaranjaCode.asyncCallback15788628 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Eq_46_32LaranjaCode.localVariables);
 {gdjs.evtTools.firebaseTools.database.updateField(runtimeScene.getGame().getVariables().getFromIndex(2).getAsString(), "Next", "", runtimeScene.getScene().getVariables().getFromIndex(7));
 }gdjs.Eq_46_32LaranjaCode.localVariables.length = 0;
@@ -68,7 +68,7 @@ gdjs.Eq_46_32LaranjaCode.eventsList0 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.Eq_46_32LaranjaCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.2), (runtimeScene) => (gdjs.Eq_46_32LaranjaCode.asyncCallback10489140(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.2), (runtimeScene) => (gdjs.Eq_46_32LaranjaCode.asyncCallback15788628(runtimeScene, asyncObjectsList)));
 }
 }
 
@@ -118,7 +118,7 @@ gdjs.copyArray(runtimeScene.getObjects("lusiadas"), gdjs.Eq_46_32LaranjaCode.GDl
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(10491140);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(15790628);
 }
 if (isConditionTrue_0) {
 
@@ -129,7 +129,7 @@ gdjs.Eq_46_32LaranjaCode.eventsList1(runtimeScene, asyncObjectsList);} //End of 
 }
 
 
-};gdjs.Eq_46_32LaranjaCode.asyncCallback10490708 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Eq_46_32LaranjaCode.asyncCallback15790196 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Eq_46_32LaranjaCode.localVariables);
 
 { //Subevents
@@ -145,7 +145,7 @@ gdjs.Eq_46_32LaranjaCode.eventsList3 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.Eq_46_32LaranjaCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.Eq_46_32LaranjaCode.asyncCallback10490708(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.Eq_46_32LaranjaCode.asyncCallback15790196(runtimeScene, asyncObjectsList)));
 }
 }
 
@@ -413,6 +413,23 @@ gdjs.copyArray(runtimeScene.getObjects("Rsp_Certa"), gdjs.Eq_46_32LaranjaCode.GD
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
+{isConditionTrue_0 = (runtimeScene.getScene().getVariables().getFromIndex(0).getAsString() == "Monopoly");
+}
+if (isConditionTrue_0) {
+gdjs.copyArray(runtimeScene.getObjects("Rsp_Certa"), gdjs.Eq_46_32LaranjaCode.GDRsp_9595CertaObjects1);
+{for(var i = 0, len = gdjs.Eq_46_32LaranjaCode.GDRsp_9595CertaObjects1.length ;i < len;++i) {
+    gdjs.Eq_46_32LaranjaCode.GDRsp_9595CertaObjects1[i].getBehavior("Text").setText("COLLECTED");
+}
+}}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
 {let isConditionTrue_1 = false;
 isConditionTrue_1 = false;
 {isConditionTrue_1 = (runtimeScene.getScene().getVariables().getFromIndex(0).getAsString() != "S. Pedro Alcantara Enigma");
@@ -460,6 +477,11 @@ isConditionTrue_1 = false;
 if (isConditionTrue_1) {
 isConditionTrue_1 = false;
 {isConditionTrue_1 = (runtimeScene.getScene().getVariables().getFromIndex(0).getAsString() != "BOMB DEACTIVATOR");
+}
+if (isConditionTrue_1) {
+isConditionTrue_1 = false;
+{isConditionTrue_1 = (runtimeScene.getScene().getVariables().getFromIndex(0).getAsString() != "Monopoly");
+}
 }
 }
 }

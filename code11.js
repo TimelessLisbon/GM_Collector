@@ -54,7 +54,7 @@ gdjs.Eq_46_32Amarela_95PretaCode.GDResumoBBObjects3= [];
 gdjs.Eq_46_32Amarela_95PretaCode.GDResumoBBObjects4= [];
 
 
-gdjs.Eq_46_32Amarela_95PretaCode.asyncCallback10668388 = function (runtimeScene, asyncObjectsList) {
+gdjs.Eq_46_32Amarela_95PretaCode.asyncCallback12798228 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Eq_46_32Amarela_95PretaCode.localVariables);
 {gdjs.evtTools.firebaseTools.database.updateField(runtimeScene.getGame().getVariables().getFromIndex(8).getAsString(), "Next", "", runtimeScene.getScene().getVariables().getFromIndex(7));
 }gdjs.Eq_46_32Amarela_95PretaCode.localVariables.length = 0;
@@ -68,7 +68,7 @@ gdjs.Eq_46_32Amarela_95PretaCode.eventsList0 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.Eq_46_32Amarela_95PretaCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.2), (runtimeScene) => (gdjs.Eq_46_32Amarela_95PretaCode.asyncCallback10668388(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.2), (runtimeScene) => (gdjs.Eq_46_32Amarela_95PretaCode.asyncCallback12798228(runtimeScene, asyncObjectsList)));
 }
 }
 
@@ -118,7 +118,7 @@ gdjs.copyArray(runtimeScene.getObjects("lusiadas"), gdjs.Eq_46_32Amarela_95Preta
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(10670324);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(12800124);
 }
 if (isConditionTrue_0) {
 
@@ -129,7 +129,7 @@ gdjs.Eq_46_32Amarela_95PretaCode.eventsList1(runtimeScene, asyncObjectsList);} /
 }
 
 
-};gdjs.Eq_46_32Amarela_95PretaCode.asyncCallback10669892 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Eq_46_32Amarela_95PretaCode.asyncCallback12798388 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Eq_46_32Amarela_95PretaCode.localVariables);
 
 { //Subevents
@@ -145,7 +145,7 @@ gdjs.Eq_46_32Amarela_95PretaCode.eventsList3 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.Eq_46_32Amarela_95PretaCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.Eq_46_32Amarela_95PretaCode.asyncCallback10669892(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.Eq_46_32Amarela_95PretaCode.asyncCallback12798388(runtimeScene, asyncObjectsList)));
 }
 }
 
@@ -396,6 +396,23 @@ gdjs.copyArray(runtimeScene.getObjects("Rsp_Certa"), gdjs.Eq_46_32Amarela_95Pret
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
+{isConditionTrue_0 = (runtimeScene.getScene().getVariables().getFromIndex(0).getAsString() == "Monopoly");
+}
+if (isConditionTrue_0) {
+gdjs.copyArray(runtimeScene.getObjects("Rsp_Certa"), gdjs.Eq_46_32Amarela_95PretaCode.GDRsp_9595CertaObjects1);
+{for(var i = 0, len = gdjs.Eq_46_32Amarela_95PretaCode.GDRsp_9595CertaObjects1.length ;i < len;++i) {
+    gdjs.Eq_46_32Amarela_95PretaCode.GDRsp_9595CertaObjects1[i].getBehavior("Text").setText("COLLECTED");
+}
+}}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
 {let isConditionTrue_1 = false;
 isConditionTrue_1 = false;
 {isConditionTrue_1 = (runtimeScene.getScene().getVariables().getFromIndex(0).getAsString() != "D. Pedro IV Enigma");
@@ -439,6 +456,11 @@ isConditionTrue_1 = false;
 if (isConditionTrue_1) {
 isConditionTrue_1 = false;
 {isConditionTrue_1 = (runtimeScene.getScene().getVariables().getFromIndex(0).getAsString() != "BOMB DEACTIVATOR");
+}
+if (isConditionTrue_1) {
+isConditionTrue_1 = false;
+{isConditionTrue_1 = (runtimeScene.getScene().getVariables().getFromIndex(0).getAsString() != "Monopoly");
+}
 }
 }
 }
