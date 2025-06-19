@@ -54,7 +54,7 @@ gdjs.Eq_46_32VerdeCode.GDResumoBBObjects3= [];
 gdjs.Eq_46_32VerdeCode.GDResumoBBObjects4= [];
 
 
-gdjs.Eq_46_32VerdeCode.asyncCallback19018212 = function (runtimeScene, asyncObjectsList) {
+gdjs.Eq_46_32VerdeCode.asyncCallback17483556 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Eq_46_32VerdeCode.localVariables);
 {gdjs.evtTools.firebaseTools.database.updateField(runtimeScene.getGame().getVariables().getFromIndex(5).getAsString(), "Next", "", runtimeScene.getScene().getVariables().getFromIndex(7));
 }gdjs.Eq_46_32VerdeCode.localVariables.length = 0;
@@ -68,7 +68,7 @@ gdjs.Eq_46_32VerdeCode.eventsList0 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.Eq_46_32VerdeCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.2), (runtimeScene) => (gdjs.Eq_46_32VerdeCode.asyncCallback19018212(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.2), (runtimeScene) => (gdjs.Eq_46_32VerdeCode.asyncCallback17483556(runtimeScene, asyncObjectsList)));
 }
 }
 
@@ -118,7 +118,7 @@ gdjs.copyArray(runtimeScene.getObjects("lusiadas"), gdjs.Eq_46_32VerdeCode.GDlus
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(19023900);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17485572);
 }
 if (isConditionTrue_0) {
 
@@ -129,7 +129,7 @@ gdjs.Eq_46_32VerdeCode.eventsList1(runtimeScene, asyncObjectsList);} //End of su
 }
 
 
-};gdjs.Eq_46_32VerdeCode.asyncCallback19028724 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Eq_46_32VerdeCode.asyncCallback17490132 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Eq_46_32VerdeCode.localVariables);
 
 { //Subevents
@@ -145,7 +145,7 @@ gdjs.Eq_46_32VerdeCode.eventsList3 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.Eq_46_32VerdeCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.Eq_46_32VerdeCode.asyncCallback19028724(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.Eq_46_32VerdeCode.asyncCallback17490132(runtimeScene, asyncObjectsList)));
 }
 }
 
@@ -200,6 +200,40 @@ let isConditionTrue_0 = false;
 {
 
 
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+{isConditionTrue_0 = (runtimeScene.getScene().getVariables().getFromIndex(0).getAsString() == "Ginja Enigma");
+}
+if (isConditionTrue_0) {
+gdjs.copyArray(runtimeScene.getObjects("Rsp_Certa"), gdjs.Eq_46_32VerdeCode.GDRsp_9595CertaObjects1);
+{for(var i = 0, len = gdjs.Eq_46_32VerdeCode.GDRsp_9595CertaObjects1.length ;i < len;++i) {
+    gdjs.Eq_46_32VerdeCode.GDRsp_9595CertaObjects1[i].getBehavior("Text").setText("BOOZER");
+}
+}}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+{isConditionTrue_0 = (runtimeScene.getScene().getVariables().getFromIndex(0).getAsString() == "Restauradores Enigma");
+}
+if (isConditionTrue_0) {
+gdjs.copyArray(runtimeScene.getObjects("Rsp_Certa"), gdjs.Eq_46_32VerdeCode.GDRsp_9595CertaObjects1);
+{for(var i = 0, len = gdjs.Eq_46_32VerdeCode.GDRsp_9595CertaObjects1.length ;i < len;++i) {
+    gdjs.Eq_46_32VerdeCode.GDRsp_9595CertaObjects1[i].getBehavior("Text").setText("384");
+}
+}}
 
 }
 
@@ -481,6 +515,16 @@ isConditionTrue_1 = false;
 if (isConditionTrue_1) {
 isConditionTrue_1 = false;
 {isConditionTrue_1 = (runtimeScene.getScene().getVariables().getFromIndex(0).getAsString() != "Monopoly");
+}
+if (isConditionTrue_1) {
+isConditionTrue_1 = false;
+{isConditionTrue_1 = (runtimeScene.getScene().getVariables().getFromIndex(0).getAsString() != "Restauradores Enigma");
+}
+if (isConditionTrue_1) {
+isConditionTrue_1 = false;
+{isConditionTrue_1 = (runtimeScene.getScene().getVariables().getFromIndex(0).getAsString() != "Ginja Enigma");
+}
+}
 }
 }
 }

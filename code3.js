@@ -54,7 +54,7 @@ gdjs.Eq_46_32AmarelaCode.GDResumoBBObjects3= [];
 gdjs.Eq_46_32AmarelaCode.GDResumoBBObjects4= [];
 
 
-gdjs.Eq_46_32AmarelaCode.asyncCallback9637756 = function (runtimeScene, asyncObjectsList) {
+gdjs.Eq_46_32AmarelaCode.asyncCallback19990100 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Eq_46_32AmarelaCode.localVariables);
 {gdjs.evtTools.firebaseTools.database.updateField(runtimeScene.getGame().getVariables().getFromIndex(0).getAsString(), "Next", "", runtimeScene.getScene().getVariables().getFromIndex(7));
 }gdjs.Eq_46_32AmarelaCode.localVariables.length = 0;
@@ -68,7 +68,7 @@ gdjs.Eq_46_32AmarelaCode.eventsList0 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.Eq_46_32AmarelaCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.2), (runtimeScene) => (gdjs.Eq_46_32AmarelaCode.asyncCallback9637756(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.2), (runtimeScene) => (gdjs.Eq_46_32AmarelaCode.asyncCallback19990100(runtimeScene, asyncObjectsList)));
 }
 }
 
@@ -118,7 +118,7 @@ gdjs.copyArray(runtimeScene.getObjects("lusiadas"), gdjs.Eq_46_32AmarelaCode.GDl
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(9652388);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(19978268);
 }
 if (isConditionTrue_0) {
 
@@ -129,7 +129,7 @@ gdjs.Eq_46_32AmarelaCode.eventsList1(runtimeScene, asyncObjectsList);} //End of 
 }
 
 
-};gdjs.Eq_46_32AmarelaCode.asyncCallback9643068 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Eq_46_32AmarelaCode.asyncCallback19982028 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Eq_46_32AmarelaCode.localVariables);
 
 { //Subevents
@@ -145,7 +145,7 @@ gdjs.Eq_46_32AmarelaCode.eventsList3 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.Eq_46_32AmarelaCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.Eq_46_32AmarelaCode.asyncCallback9643068(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.Eq_46_32AmarelaCode.asyncCallback19982028(runtimeScene, asyncObjectsList)));
 }
 }
 
@@ -215,6 +215,40 @@ if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("Rsp_Certa"), gdjs.Eq_46_32AmarelaCode.GDRsp_9595CertaObjects1);
 {for(var i = 0, len = gdjs.Eq_46_32AmarelaCode.GDRsp_9595CertaObjects1.length ;i < len;++i) {
     gdjs.Eq_46_32AmarelaCode.GDRsp_9595CertaObjects1[i].getBehavior("Text").setText("846");
+}
+}}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+{isConditionTrue_0 = (runtimeScene.getScene().getVariables().getFromIndex(0).getAsString() == "Restauradores Enigma");
+}
+if (isConditionTrue_0) {
+gdjs.copyArray(runtimeScene.getObjects("Rsp_Certa"), gdjs.Eq_46_32AmarelaCode.GDRsp_9595CertaObjects1);
+{for(var i = 0, len = gdjs.Eq_46_32AmarelaCode.GDRsp_9595CertaObjects1.length ;i < len;++i) {
+    gdjs.Eq_46_32AmarelaCode.GDRsp_9595CertaObjects1[i].getBehavior("Text").setText("384");
+}
+}}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+{isConditionTrue_0 = (runtimeScene.getScene().getVariables().getFromIndex(0).getAsString() == "Ginja Enigma");
+}
+if (isConditionTrue_0) {
+gdjs.copyArray(runtimeScene.getObjects("Rsp_Certa"), gdjs.Eq_46_32AmarelaCode.GDRsp_9595CertaObjects1);
+{for(var i = 0, len = gdjs.Eq_46_32AmarelaCode.GDRsp_9595CertaObjects1.length ;i < len;++i) {
+    gdjs.Eq_46_32AmarelaCode.GDRsp_9595CertaObjects1[i].getBehavior("Text").setText("BOOZER");
 }
 }}
 
@@ -481,6 +515,16 @@ isConditionTrue_1 = false;
 if (isConditionTrue_1) {
 isConditionTrue_1 = false;
 {isConditionTrue_1 = (runtimeScene.getScene().getVariables().getFromIndex(0).getAsString() != "Monopoly");
+}
+if (isConditionTrue_1) {
+isConditionTrue_1 = false;
+{isConditionTrue_1 = (runtimeScene.getScene().getVariables().getFromIndex(0).getAsString() != "Restauradores Enigma");
+}
+if (isConditionTrue_1) {
+isConditionTrue_1 = false;
+{isConditionTrue_1 = (runtimeScene.getScene().getVariables().getFromIndex(0).getAsString() != "Ginja Enigma");
+}
+}
 }
 }
 }
